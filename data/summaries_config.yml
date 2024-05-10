@@ -19,7 +19,7 @@ summary:
       max_at_least: 1  # make heatmap max at least
       min_at_least: -1  # make heatmap min at least this
       antibody_list:  # antibodies to include: keys name used for `avg_escape`, values name for plot
-        2510C: 2510C
+        S4378: S4378
 
         
          

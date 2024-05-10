@@ -41,12 +41,21 @@ global_epistasis_params: &global_epistasis_params
 #  - `func_score_params`: parameters for computing functional scores
 #  - `global_epistasis_params`: parameters for fitting global epistasis model
 func_scores:
-  LibA-220601-293T-1:
-    post_selection_sample: LibA-220601-no-antibody-1
-    pre_selection_sample: LibA-220601-VSVG-1
+  LibA-240507-293T-1:
+    post_selection_sample: LibA-240507-no-antibody-1
+    pre_selection_sample: LibA-240507-VSVG-1
     func_score_params: *func_scores_params_default
     global_epistasis_params: *global_epistasis_params
-  
+  LibA-240507-293T-2:
+    post_selection_sample: LibA-240507-no-antibody-1
+    pre_selection_sample: LibA-240507-VSVG-1
+    func_score_params: *func_scores_params_default
+    global_epistasis_params: *global_epistasis_params
+  # LibA-240507-293T-3:
+  #   post_selection_sample: LibA-240507-no-antibody-3
+  #   pre_selection_sample: LibA-240507-VSVG-3
+  #   func_score_params: *func_scores_params_default
+  #   global_epistasis_params: *global_epistasis_params
 
 # --------------------------------------------------------------------------------------
 # Configuration for averaging mutation functional effects across selections and plotting
@@ -70,7 +79,7 @@ avg_func_effects_default: &avg_func_effects_default
     alphabet: ['R','K','H','D','E','Q','N','S','T','Y','W','F','A','I','L','M','V','G','P','C',"'*'"]
     addtl_slider_stats:
       times_seen: 2
-      n_selections: 8
+      n_selections: 1
     heatmap_max_at_least: 2
     heatmap_min_at_least: -1
     init_floor_at_zero: false
@@ -109,8 +118,8 @@ avg_func_effects:
     <<: *avg_func_effects_default
     title: Mutation effects on entry into 293T cells
     selections:
-      # - LibA-220601-293T-1
-      # - LibA-220601-293T-2
+      - LibA-240507-293T-1
+      - LibA-240507-293T-2
 
 # --------------------------------------------------------------------------------------
 # Configuration for func effect shifts from `multidms` models comparing conditions.
