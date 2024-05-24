@@ -46,16 +46,17 @@ func_scores:
     pre_selection_sample: LibA-240507-VSVG-1
     func_score_params: *func_scores_params_default
     global_epistasis_params: *global_epistasis_params
-  LibA-240507-293T-2:
-    post_selection_sample: LibA-240507-no-antibody-1
-    pre_selection_sample: LibA-240507-VSVG-1
+  LibA-240523-293T-1:
+    post_selection_sample: LibA-240523-no-antibody-1
+    pre_selection_sample: LibA-240523-VSVG-1
     func_score_params: *func_scores_params_default
     global_epistasis_params: *global_epistasis_params
-  # LibA-240507-293T-3:
-  #   post_selection_sample: LibA-240507-no-antibody-3
-  #   pre_selection_sample: LibA-240507-VSVG-3
-  #   func_score_params: *func_scores_params_default
-  #   global_epistasis_params: *global_epistasis_params
+
+  LibB-240523-293T-1:
+    post_selection_sample: LibB-240523-no-antibody-1
+    pre_selection_sample: LibB-240523-VSVG-1
+    func_score_params: *func_scores_params_default
+    global_epistasis_params: *global_epistasis_params
 
 # --------------------------------------------------------------------------------------
 # Configuration for averaging mutation functional effects across selections and plotting
@@ -119,7 +120,8 @@ avg_func_effects:
     title: Mutation effects on entry into 293T cells
     selections:
       - LibA-240507-293T-1
-      - LibA-240507-293T-2
+      - LibA-240523-293T-1
+      - LibB-240523-293T-1
 
 # --------------------------------------------------------------------------------------
 # Configuration for func effect shifts from `multidms` models comparing conditions.
