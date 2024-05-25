@@ -476,64 +476,46 @@ avg_antibody_escape_default: &avg_antibody_escape_default
     avg_type: median
     per_model_tooltip: true
   plot_hide_stats: *plot_hide_stats_default
-  legend: |
-    Interactive plot of how mutations affect antibody escape.
-
-    Use the site zoom bar at the top to zoom in on specific sites. The line plot shows a summary statistic indicating escape at each site. The heat map shows escape for individual mutations, with parental amino-acid identities indicated by x and gray indicating non-measured mutations. Mouse over points for details.
-
-    Options at the bottom of the plot let you modify the display, such as by selecting how many different variants a mutation must be seen in to be shown (*minimum times_seen*), how many different experimental selections the mutation was measured in (*minimum n_models*), what site summary statistic to show, etc.
-
-    You can filter by the functional effects of mutations. Mutations removed by this filter are shown as dark gray squares in the heat map to distinguish unmeasured mutations from ones measured to be deleterious.
-
-    The minimum max of escape at site is useful to select the sites where mutations confer the most escape.
 
 # Define the antibodies/sera to average
 avg_antibody_escape:
   S4378:
     <<: *avg_antibody_escape_default
-    title: Escape map for antibody S4378
     selections:
       - LibA-240507-S4378-1
       - LibA-240507-S4378-2
   S43711:
     <<: *avg_antibody_escape_default
-    title: Escape map for antibody S43711
     selections:
       - LibA-240507-S43711-1
       - LibB-240523-S43711-1
   S43727:
     <<: *avg_antibody_escape_default
-    title: Escape map for antibody S43727
     selections:
       - LibA-240507-S43727-1
       - LibA-240507-S43727-2
   S43742:
     <<: *avg_antibody_escape_default
-    title: Escape map for antibody S43727
     selections:
       - LibA-240523-S43742-1
       - LibA-240523-S43742-2
   S44428:
     <<: *avg_antibody_escape_default
-    title: Escape map for antibody S43727
     selections:
       - LibA-240523-S44428-1
       - LibA-240523-S44428-2
   S44433:
     <<: *avg_antibody_escape_default
-    title: Escape map for antibody S44433
     selections:
       - LibA-240507-S44433-1
       - LibA-240507-S44433-2
   S44446:
     <<: *avg_antibody_escape_default
-    title: Escape map for antibody S44446
     selections:
       - LibA-240507-S44446-1
       - LibB-240523-S44446-1
   S44478:
     <<: *avg_antibody_escape_default
-    title: Escape map for antibody S44478
     selections:
       - LibA-240507-S44478-1
       - LibA-240507-S44478-2
