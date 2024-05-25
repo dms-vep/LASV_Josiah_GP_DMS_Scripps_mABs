@@ -20,6 +20,13 @@ summary:
       min_at_least: -1  # make heatmap min at least this
       antibody_list:  # antibodies to include: keys name used for `avg_escape`, values name for plot
         S4378: S4378
+        S43711: S43711
+        S43727: S43727
+        S43742: S43742
+        S44428: S44428
+        S44433: S44433
+        S44446: S44446
+        S44478: S44478
 
         
          
