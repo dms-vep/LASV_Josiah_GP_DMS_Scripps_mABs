@@ -465,7 +465,7 @@ avg_escape_plot_kwargs_default: &avg_escape_plot_kwargs_default
   init_floor_at_zero: false
   init_site_statistic: sum
   site_zoom_bar_color_col: region  # supplied in `site_numbering_map`
-  init_n_models: 1
+  init_n_models: 2
 
 # Define defaults for each antibody/serum, used via the merge (<<) operator
 avg_antibody_escape_default: &avg_antibody_escape_default

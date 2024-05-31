@@ -1,0 +1,15 @@
+name: dms_viz
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - python
+  - jupyterlab
+  - pandas
+  - papermill
+  - pip
+  - pip:
+    - configure-dms-viz

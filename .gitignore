@@ -59,3 +59,7 @@ results/antibody_escape/averages/*
 results/summaries/*
 !results/summaries/summary.csv
 !results/summaries/per_antibody_escape.csv
+
+!results/dms_viz
+results/dms_viz/*
+!results/dms_viz/dms_viz.json
