@@ -6,7 +6,7 @@ export default defineConfig({
   title: "Lassa GPC DMS",
   description:
     "Interactive figures and detailed results for deep mutational scanning of the GPC from the lineage IV Lassa virus Josiah strain.",
-  base: "/dms-vep-pipeline-3/",
+  base: "/LASV_Josiah_GP_DMS_Scripps_mABs/",
   appearance: false,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
