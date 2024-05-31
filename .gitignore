@@ -2,6 +2,7 @@
 _*
 *.out
 
+!.github
 !.gitignore
 !.gitmodules
 
@@ -63,3 +64,8 @@ results/summaries/*
 !results/dms_viz
 results/dms_viz/*
 !results/dms_viz/dms_viz.json
+
+node_modules/
+!homepage/.vitepress/
+homepage/.vitepress/cache/
+homepage/.vitepress/dist/
