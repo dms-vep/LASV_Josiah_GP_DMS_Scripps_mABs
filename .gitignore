@@ -65,6 +65,14 @@ results/summaries/*
 results/dms_viz/*
 !results/dms_viz/dms_viz.json
 
+!results/filtered_CSVs
+results/filtered_CSVs/*
+!results/filtered_CSVs/*.csv
+
+!results/escape_plots
+results/escape_plots/*
+!results/escape_plots/*.svg
+
 node_modules/
 !homepage/.vitepress/
 homepage/.vitepress/cache/

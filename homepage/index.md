@@ -21,7 +21,7 @@ features:
 ---
 
 ## About this site
-This website contains interactive plots and numerical results from a study that measures the effects of mutations to the glycoprotein complex (GPC) of the lineage IV Lassa virus Josiah strain on antibody escape for a panel of monoclonal antibodies using [pseudovirus deep mutational scanning](https://www.biorxiv.org/content/10.1101/2024.02.05.579020v1). This study is in collaboration with the [Briney](https://brineylab.com/) and [Ward](https://ward.scripps.edu/) labs at [Scripps Research](https://www.scripps.edu/). 
+This website contains interactive plots and numerical results from a study that measures the effects of mutations to the glycoprotein complex (GPC) of the lineage IV Lassa virus Josiah strain on antibody escape for a panel of monoclonal antibodies using [pseudovirus deep mutational scanning](https://www.biorxiv.org/content/10.1101/2024.02.05.579020v1). This study is in collaboration with the [Briney](https://brineylab.com/) and [Ward](https://ward.scripps.edu/) labs at [Scripps Research](https://www.scripps.edu/). Deep mutational scanning was carried out by Caleb Carr in the Bloom lab. 
 
 The links in the boxes above take you to interactive plots or descriptions of different aspects of the study.
 To delve into the data in more detail, click on the boxes above.
