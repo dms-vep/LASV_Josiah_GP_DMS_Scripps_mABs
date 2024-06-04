@@ -11,7 +11,7 @@ features:
     link: /antibody_escape
   - title: Interactive structure visualization
     details: dms-viz visualizations of mutation effects
-    link: https://dms-viz.github.io/v0/?data=https%3A%2F%2Fgist.githubusercontent.com%2FCaleb-Carr%2Fb8488ce4f4f386703cd69e0ca6cda5d8%2Fraw%2Fea75f4d6adfc1ca2e9b96dbdf485761aeb58b85a%2Fdms_viz.json
+    link: https://dms-viz.github.io/v0/?data=https%3A%2F%2Fraw.githubusercontent.com%2Fdms-vep%2FLASV_Josiah_GP_DMS_Scripps_mABs%2Fmain%2Fresults%2Fdms_viz%2Fdms_viz.json
   - title: Experiments and biosafety
     details: Explanation of pseudovirus deep mutational scanning
     link: /experiments_and_biosafety
