@@ -7575,7 +7575,7 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs celltag_injected-parameters" id="cell-id=4803424f">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs celltag_injected-parameters" id="cell-id=f81d064a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7663,6 +7663,7 @@ a.anchor-link {
     <span class="s2">"S43711"</span><span class="p">,</span>
     <span class="s2">"S43727"</span><span class="p">,</span>
     <span class="s2">"S43742"</span><span class="p">,</span>
+    <span class="s2">"S43752"</span><span class="p">,</span>
     <span class="s2">"S44428"</span><span class="p">,</span>
     <span class="s2">"S44433"</span><span class="p">,</span>
     <span class="s2">"S44446"</span><span class="p">,</span>
@@ -7715,6 +7716,7 @@ a.anchor-link {
     <span class="s2">"S43711_escape"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"--floor"</span><span class="p">,</span> <span class="s2">"True"</span><span class="p">,</span> <span class="s2">"--summary-stat"</span><span class="p">,</span> <span class="s2">"sum"</span><span class="p">],</span>
     <span class="s2">"S43727_escape"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"--floor"</span><span class="p">,</span> <span class="s2">"True"</span><span class="p">,</span> <span class="s2">"--summary-stat"</span><span class="p">,</span> <span class="s2">"sum"</span><span class="p">],</span>
     <span class="s2">"S43742_escape"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"--floor"</span><span class="p">,</span> <span class="s2">"True"</span><span class="p">,</span> <span class="s2">"--summary-stat"</span><span class="p">,</span> <span class="s2">"sum"</span><span class="p">],</span>
+    <span class="s2">"S43752_escape"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"--floor"</span><span class="p">,</span> <span class="s2">"False"</span><span class="p">,</span> <span class="s2">"--summary-stat"</span><span class="p">,</span> <span class="s2">"sum"</span><span class="p">],</span>
     <span class="s2">"S44428_escape"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"--floor"</span><span class="p">,</span> <span class="s2">"True"</span><span class="p">,</span> <span class="s2">"--summary-stat"</span><span class="p">,</span> <span class="s2">"sum"</span><span class="p">],</span>
     <span class="s2">"S44433_escape"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"--floor"</span><span class="p">,</span> <span class="s2">"True"</span><span class="p">,</span> <span class="s2">"--summary-stat"</span><span class="p">,</span> <span class="s2">"sum"</span><span class="p">],</span>
     <span class="s2">"S44446_escape"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"--floor"</span><span class="p">,</span> <span class="s2">"True"</span><span class="p">,</span> <span class="s2">"--summary-stat"</span><span class="p">,</span> <span class="s2">"sum"</span><span class="p">],</span>
@@ -7824,14 +7826,16 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 
 'protein_site' column is not present in the sitemap. Assuming that the reference sites correspond to protein sites.
 
+Warning: The 'cell_entry' filter limit '-4.192' is less than the minimum value of -4.189. Setting the min value to -4.189.
+
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>About 100.00% (408 of 408) of the wildtype residues in the data match the corresponding residues in the structure.
-About 16.90% (83 of 491) of the data sites are missing from the structure.
+<pre>About 100.00% (407 of 407) of the wildtype residues in the data match the corresponding residues in the structure.
+About 16.94% (83 of 490) of the data sites are missing from the structure.
 
 Success! The visualization JSON was written to 'results/dms_viz/S4378_escape.json'
 </pre>
@@ -7856,6 +7860,8 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 
 'protein_site' column is not present in the sitemap. Assuming that the reference sites correspond to protein sites.
 
+Warning: The 'cell_entry' filter limit '-4.192' is less than the minimum value of -4.189. Setting the min value to -4.189.
+
 </pre>
 </div>
 </div>
@@ -7866,13 +7872,7 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 About 16.97% (83 of 489) of the data sites are missing from the structure.
 
 Success! The visualization JSON was written to 'results/dms_viz/S43711_escape.json'
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Writing phenotype S43727_escape to results/dms_viz/S43727_escape.json
+Writing phenotype S43727_escape to results/dms_viz/S43727_escape.json
 </pre>
 </div>
 </div>
@@ -7888,14 +7888,16 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 
 'protein_site' column is not present in the sitemap. Assuming that the reference sites correspond to protein sites.
 
+Warning: The 'cell_entry' filter limit '-4.192' is less than the minimum value of -4.189. Setting the min value to -4.189.
+
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>About 100.00% (408 of 408) of the wildtype residues in the data match the corresponding residues in the structure.
-About 16.90% (83 of 491) of the data sites are missing from the structure.
+<pre>About 100.00% (407 of 407) of the wildtype residues in the data match the corresponding residues in the structure.
+About 16.94% (83 of 490) of the data sites are missing from the structure.
 
 Success! The visualization JSON was written to 'results/dms_viz/S43727_escape.json'
 </pre>
@@ -7920,6 +7922,36 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 
 'protein_site' column is not present in the sitemap. Assuming that the reference sites correspond to protein sites.
 
+Warning: The 'cell_entry' filter limit '-4.192' is less than the minimum value of -4.189. Setting the min value to -4.189.
+
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>About 100.00% (407 of 407) of the wildtype residues in the data match the corresponding residues in the structure.
+About 16.94% (83 of 490) of the data sites are missing from the structure.
+
+Success! The visualization JSON was written to 'results/dms_viz/S43742_escape.json'
+Writing phenotype S43752_escape to results/dms_viz/S43752_escape.json
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>
+Formatting data for visualization using the 'S43752_escape' column from 'results/dms_viz/phenotypes.csv'...
+
+Using sitemap from 'data/site_numbering_map.csv'.
+
+Warning: NaN values were found in the metric column. These rows will be filtered out.
+
+'protein_site' column is not present in the sitemap. Assuming that the reference sites correspond to protein sites.
+
+Warning: The 'cell_entry' filter limit '-4.192' is less than the minimum value of -4.189. Setting the min value to -4.189.
+
 </pre>
 </div>
 </div>
@@ -7929,7 +7961,7 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 <pre>About 100.00% (408 of 408) of the wildtype residues in the data match the corresponding residues in the structure.
 About 16.90% (83 of 491) of the data sites are missing from the structure.
 
-Success! The visualization JSON was written to 'results/dms_viz/S43742_escape.json'
+Success! The visualization JSON was written to 'results/dms_viz/S43752_escape.json'
 </pre>
 </div>
 </div>
@@ -7952,23 +7984,19 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 
 'protein_site' column is not present in the sitemap. Assuming that the reference sites correspond to protein sites.
 
+Warning: The 'cell_entry' filter limit '-4.192' is less than the minimum value of -4.189. Setting the min value to -4.189.
+
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>About 100.00% (408 of 408) of the wildtype residues in the data match the corresponding residues in the structure.
-About 16.90% (83 of 491) of the data sites are missing from the structure.
+<pre>About 100.00% (407 of 407) of the wildtype residues in the data match the corresponding residues in the structure.
+About 16.94% (83 of 490) of the data sites are missing from the structure.
 
 Success! The visualization JSON was written to 'results/dms_viz/S44428_escape.json'
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Writing phenotype S44433_escape to results/dms_viz/S44433_escape.json
+Writing phenotype S44433_escape to results/dms_viz/S44433_escape.json
 </pre>
 </div>
 </div>
@@ -7984,6 +8012,8 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 
 'protein_site' column is not present in the sitemap. Assuming that the reference sites correspond to protein sites.
 
+Warning: The 'cell_entry' filter limit '-4.192' is less than the minimum value of -4.189. Setting the min value to -4.189.
+
 </pre>
 </div>
 </div>
@@ -7992,13 +8022,7 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>About 100.00% (408 of 408) of the wildtype residues in the data match the corresponding residues in the structure.
 About 16.90% (83 of 491) of the data sites are missing from the structure.
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>
+
 Success! The visualization JSON was written to 'results/dms_viz/S44433_escape.json'
 </pre>
 </div>
@@ -8019,14 +8043,10 @@ Formatting data for visualization using the 'S44446_escape' column from 'results
 Using sitemap from 'data/site_numbering_map.csv'.
 
 Warning: NaN values were found in the metric column. These rows will be filtered out.
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>
+
 'protein_site' column is not present in the sitemap. Assuming that the reference sites correspond to protein sites.
+
+Warning: The 'cell_entry' filter limit '-4.192' is less than the minimum value of -4.189. Setting the min value to -4.189.
 
 </pre>
 </div>
@@ -8036,21 +8056,9 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>About 100.00% (406 of 406) of the wildtype residues in the data match the corresponding residues in the structure.
 About 16.97% (83 of 489) of the data sites are missing from the structure.
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>
+
 Success! The visualization JSON was written to 'results/dms_viz/S44446_escape.json'
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Writing phenotype S44478_escape to results/dms_viz/S44478_escape.json
+Writing phenotype S44478_escape to results/dms_viz/S44478_escape.json
 </pre>
 </div>
 </div>
@@ -8063,14 +8071,10 @@ Formatting data for visualization using the 'S44478_escape' column from 'results
 Using sitemap from 'data/site_numbering_map.csv'.
 
 Warning: NaN values were found in the metric column. These rows will be filtered out.
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>
+
 'protein_site' column is not present in the sitemap. Assuming that the reference sites correspond to protein sites.
+
+Warning: The 'cell_entry' filter limit '-4.192' is less than the minimum value of -4.189. Setting the min value to -4.189.
 
 </pre>
 </div>
@@ -8080,21 +8084,9 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>About 100.00% (408 of 408) of the wildtype residues in the data match the corresponding residues in the structure.
 About 16.90% (83 of 491) of the data sites are missing from the structure.
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>
+
 Success! The visualization JSON was written to 'results/dms_viz/S44478_escape.json'
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Writing phenotype cell_entry to results/dms_viz/cell_entry.json
+Writing phenotype cell_entry to results/dms_viz/cell_entry.json
 </pre>
 </div>
 </div>
@@ -8105,13 +8097,7 @@ Success! The visualization JSON was written to 'results/dms_viz/S44478_escape.js
 Formatting data for visualization using the 'cell_entry' column from 'results/dms_viz/phenotypes.csv'...
 
 Using sitemap from 'data/site_numbering_map.csv'.
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>
+
 'protein_site' column is not present in the sitemap. Assuming that the reference sites correspond to protein sites.
 
 </pre>
@@ -8122,13 +8108,7 @@ Using sitemap from 'data/site_numbering_map.csv'.
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>About 100.00% (408 of 408) of the wildtype residues in the data match the corresponding residues in the structure.
 About 16.90% (83 of 491) of the data sites are missing from the structure.
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>
+
 Success! The visualization JSON was written to 'results/dms_viz/cell_entry.json'
 </pre>
 </div>
@@ -8144,14 +8124,14 @@ Success! The visualization JSON was written to 'results/dms_viz/cell_entry.json'
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>
-Success! 9 JSON files were merged and saved to 'results/dms_viz/dms_viz.json'
+Success! 10 JSON files were merged and saved to 'results/dms_viz/dms_viz.json'
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>CompletedProcess(args=['configure-dms-viz', 'join', '--input', 'results/dms_viz/S4378_escape.json, results/dms_viz/S43711_escape.json, results/dms_viz/S43727_escape.json, results/dms_viz/S43742_escape.json, results/dms_viz/S44428_escape.json, results/dms_viz/S44433_escape.json, results/dms_viz/S44446_escape.json, results/dms_viz/S44478_escape.json, results/dms_viz/cell_entry.json', '--output', 'results/dms_viz/dms_viz.json', '--description', 'results/dms_viz/description.md'], returncode=0)</pre>
+<pre>CompletedProcess(args=['configure-dms-viz', 'join', '--input', 'results/dms_viz/S4378_escape.json, results/dms_viz/S43711_escape.json, results/dms_viz/S43727_escape.json, results/dms_viz/S43742_escape.json, results/dms_viz/S43752_escape.json, results/dms_viz/S44428_escape.json, results/dms_viz/S44433_escape.json, results/dms_viz/S44446_escape.json, results/dms_viz/S44478_escape.json, results/dms_viz/cell_entry.json', '--output', 'results/dms_viz/dms_viz.json', '--description', 'results/dms_viz/description.md'], returncode=0)</pre>
 </div>
 </div>
 </div>
