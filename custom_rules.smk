@@ -8,6 +8,17 @@ This file is included by the pipeline ``Snakefile``.
 rule configure_dms_viz:
     """Configure a JSON file for `dms-viz`."""
     input:
+        # dummy files for correct rule ordering
+        "results/antibody_escape/averages/S4378_mut_effect.csv",
+        "results/antibody_escape/averages/S43711_mut_effect.csv",
+        "results/antibody_escape/averages/S43727_mut_effect.csv",
+        "results/antibody_escape/averages/S43742_mut_effect.csv",
+        "results/antibody_escape/averages/S43752_mut_effect.csv",
+        "results/antibody_escape/averages/S44428_mut_effect.csv",
+        "results/antibody_escape/averages/S44433_mut_effect.csv",
+        "results/antibody_escape/averages/S44446_mut_effect.csv",
+        "results/antibody_escape/averages/S44478_mut_effect.csv",
+        # input files
         site_map="data/site_numbering_map.csv",
         func_scores="results/func_effects/averages/293T_entry_func_effects.csv",
         nb="analysis_notebooks/configure_dms_viz.ipynb",
@@ -47,6 +58,17 @@ rule configure_dms_viz:
 rule get_filtered_csvs_and_plots:
     """Create filtered CSV files and static escape plots."""
     input:
+        # dummy files for correct rule ordering
+        "results/antibody_escape/averages/S4378_mut_effect.csv",
+        "results/antibody_escape/averages/S43711_mut_effect.csv",
+        "results/antibody_escape/averages/S43727_mut_effect.csv",
+        "results/antibody_escape/averages/S43742_mut_effect.csv",
+        "results/antibody_escape/averages/S43752_mut_effect.csv",
+        "results/antibody_escape/averages/S44428_mut_effect.csv",
+        "results/antibody_escape/averages/S44433_mut_effect.csv",
+        "results/antibody_escape/averages/S44446_mut_effect.csv",
+        "results/antibody_escape/averages/S44478_mut_effect.csv",
+        # input files
         func_scores="results/func_effects/averages/293T_entry_func_effects.csv",
         nb="analysis_notebooks/get_filtered_CSVs.ipynb",
     output:

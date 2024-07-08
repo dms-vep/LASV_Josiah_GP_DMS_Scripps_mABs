@@ -57,6 +57,21 @@ func_scores:
     pre_selection_sample: LibB-240523-VSVG-1
     func_score_params: *func_scores_params_default
     global_epistasis_params: *global_epistasis_params
+  LibB-240604-293T-1:
+    post_selection_sample: LibB-240604-no-antibody-1
+    pre_selection_sample: LibB-240604-VSVG-1
+    func_score_params: *func_scores_params_default
+    global_epistasis_params: *global_epistasis_params
+  LibB-240619-293T-1:
+    post_selection_sample: LibB-240619-no-antibody-1
+    pre_selection_sample: LibB-240619-VSVG-1
+    func_score_params: *func_scores_params_default
+    global_epistasis_params: *global_epistasis_params
+  LibB-240624-293T-1:
+    post_selection_sample: LibB-240624-no-antibody-1
+    pre_selection_sample: LibB-240624-VSVG-1
+    func_score_params: *func_scores_params_default
+    global_epistasis_params: *global_epistasis_params
 
 # --------------------------------------------------------------------------------------
 # Configuration for averaging mutation functional effects across selections and plotting
@@ -102,6 +117,9 @@ avg_func_effects:
       - LibA-240507-293T-1
       - LibA-240523-293T-1
       - LibB-240523-293T-1
+      - LibB-240604-293T-1
+      - LibB-240619-293T-1
+      - LibB-240624-293T-1
 
 # --------------------------------------------------------------------------------------
 # Configuration for func effect shifts from `multidms` models comparing conditions.

@@ -131,26 +131,23 @@ antibody_selections:
       LibA-240507-S4378-320-1:
         concentration: 320
         use_in_fit: true
-  LibA-240507-S4378-2:
-    neut_standard_name: neut_standard
-    prob_escape_filters: *prob_escape_filters_default
-    polyclonal_params: *polyclonal_params_default
-    escape_plot_kwargs: *escape_plot_kwargs_default
-    plot_hide_stats: *plot_hide_stats_default
-    no_antibody_sample: LibA-240507-no-antibody-1
-    antibody_samples:
-      LibA-240507-S4378-5-1:
-        concentration: 5
-        use_in_fit: true
-      LibA-240507-S4378-20-1:
-        concentration: 20
-        use_in_fit: true
-      LibA-240507-S4378-80-1:
-        concentration: 80
-        use_in_fit: true
-      LibA-240507-S4378-320-1:
-        concentration: 320
-        use_in_fit: true
+  LibB-240619-S4378-1:
+      neut_standard_name: neut_standard
+      prob_escape_filters: *prob_escape_filters_default
+      polyclonal_params: *polyclonal_params_default
+      escape_plot_kwargs: *escape_plot_kwargs_default
+      plot_hide_stats: *plot_hide_stats_default
+      no_antibody_sample: LibB-240619-no-antibody-1
+      antibody_samples:
+        LibB-240619-S4378-5-1:
+          concentration: 5
+          use_in_fit: true
+        LibB-240619-S4378-20-1:
+          concentration: 20
+          use_in_fit: true
+        LibB-240619-S4378-80-1:
+          concentration: 80
+          use_in_fit: true
 
   LibA-240507-S43711-1:
     neut_standard_name: neut_standard
@@ -213,26 +210,23 @@ antibody_selections:
       LibA-240507-S43727-160-1:
         concentration: 160
         use_in_fit: false
-  LibA-240507-S43727-2:
+  LibB-240619-S43727-1:
     neut_standard_name: neut_standard
     prob_escape_filters: *prob_escape_filters_default
     polyclonal_params: *polyclonal_params_default
     escape_plot_kwargs: *escape_plot_kwargs_default
     plot_hide_stats: *plot_hide_stats_default
-    no_antibody_sample: LibA-240507-no-antibody-1
+    no_antibody_sample: LibB-240619-no-antibody-1
     antibody_samples:
-      LibA-240507-S43727-10-1:
-        concentration: 10
+      LibB-240619-S43727-5-1:
+        concentration: 5
         use_in_fit: true
-      LibA-240507-S43727-20-1:
+      LibB-240619-S43727-20-1:
         concentration: 20
         use_in_fit: true
-      LibA-240507-S43727-40-1:
-        concentration: 40
-        use_in_fit: false
-      LibA-240507-S43727-160-1:
-        concentration: 160
-        use_in_fit: false
+      LibB-240619-S43727-80-1:
+        concentration: 80
+        use_in_fit: true
 
   LibA-240523-S43742-1:
     neut_standard_name: neut_standard
@@ -254,24 +248,21 @@ antibody_selections:
       LibA-240523-S43742-160-1:
         concentration: 160
         use_in_fit: true
-  LibA-240523-S43742-2:
+  LibB-240619-S43742-1:
     neut_standard_name: neut_standard
     prob_escape_filters: *prob_escape_filters_default
     polyclonal_params: *polyclonal_params_default
     escape_plot_kwargs: *escape_plot_kwargs_default
     plot_hide_stats: *plot_hide_stats_default
-    no_antibody_sample: LibA-240523-no-antibody-1
+    no_antibody_sample: LibB-240619-no-antibody-1
     antibody_samples:
-      LibA-240523-S43742-20-1:
-        concentration: 20
+      LibB-240619-S43742-10-1:
+        concentration: 10
         use_in_fit: true
-      LibA-240523-S43742-40-1:
+      LibB-240619-S43742-40-1:
         concentration: 40
         use_in_fit: true
-      LibA-240523-S43742-80-1:
-        concentration: 80
-        use_in_fit: true
-      LibA-240523-S43742-160-1:
+      LibB-240619-S43742-160-1:
         concentration: 160
         use_in_fit: true
 
@@ -295,25 +286,22 @@ antibody_selections:
       LibA-240523-S44428-160-1:
         concentration: 160
         use_in_fit: true
-  LibA-240523-S44428-2:
+  LibB-240624-S44428-1:
     neut_standard_name: neut_standard
     prob_escape_filters: *prob_escape_filters_default
     polyclonal_params: *polyclonal_params_default
     escape_plot_kwargs: *escape_plot_kwargs_default
     plot_hide_stats: *plot_hide_stats_default
-    no_antibody_sample: LibA-240523-no-antibody-1
+    no_antibody_sample: LibB-240624-no-antibody-1
     antibody_samples:
-      LibA-240523-S44428-10-1:
-        concentration: 10
+      LibB-240624-S44428-5-1:
+        concentration: 5
         use_in_fit: true
-      LibA-240523-S44428-20-1:
+      LibB-240624-S44428-20-1:
         concentration: 20
         use_in_fit: true
-      LibA-240523-S44428-80-1:
+      LibB-240624-S44428-80-1:
         concentration: 80
-        use_in_fit: true
-      LibA-240523-S44428-160-1:
-        concentration: 160
         use_in_fit: true
 
   LibA-240507-S44433-1:
@@ -336,24 +324,21 @@ antibody_selections:
       LibA-240507-S44433-14-1:
         concentration: 14
         use_in_fit: true
-  LibA-240507-S44433-2:
+  LibB-240624-S44433-1:
     neut_standard_name: neut_standard
     prob_escape_filters: *prob_escape_filters_default
     polyclonal_params: *polyclonal_params_default
     escape_plot_kwargs: *escape_plot_kwargs_default
     plot_hide_stats: *plot_hide_stats_default
-    no_antibody_sample: LibA-240507-no-antibody-1
+    no_antibody_sample: LibB-240624-no-antibody-1
     antibody_samples:
-      LibA-240507-S44433-0.875-1:
+      LibB-240624-S44433-0.875-1:
         concentration: 0.875
         use_in_fit: true
-      LibA-240507-S44433-3.5-1:
+      LibB-240624-S44433-3.5-1:
         concentration: 3.5
         use_in_fit: true
-      LibA-240507-S44433-7-1:
-        concentration: 7
-        use_in_fit: true
-      LibA-240507-S44433-14-1:
+      LibB-240624-S44433-14-1:
         concentration: 14
         use_in_fit: true
 
@@ -418,25 +403,75 @@ antibody_selections:
       LibA-240507-S44478-320-1:
         concentration: 320
         use_in_fit: true
-  LibA-240507-S44478-2:
+  LibB-240624-S44478-1:
     neut_standard_name: neut_standard
     prob_escape_filters: *prob_escape_filters_default
     polyclonal_params: *polyclonal_params_default
     escape_plot_kwargs: *escape_plot_kwargs_default
     plot_hide_stats: *plot_hide_stats_default
-    no_antibody_sample: LibA-240507-no-antibody-1
+    no_antibody_sample: LibB-240624-no-antibody-1
     antibody_samples:
-      LibA-240507-S44478-20-1:
+      LibB-240624-S44478-20-1:
         concentration: 20
         use_in_fit: true
-      LibA-240507-S44478-40-1:
-        concentration: 40
-        use_in_fit: true
-      LibA-240507-S44478-80-1:
+      LibB-240624-S44478-80-1:
         concentration: 80
         use_in_fit: true
-      LibA-240507-S44478-320-1:
+      LibB-240624-S44478-320-1:
         concentration: 320
+        use_in_fit: true
+
+  LibB-240604-S43752-1:
+    neut_standard_name: neut_standard
+    prob_escape_filters: *prob_escape_filters_default
+    polyclonal_params: *polyclonal_params_default
+    escape_plot_kwargs: *escape_plot_kwargs_default
+    plot_hide_stats: *plot_hide_stats_default
+    no_antibody_sample: LibB-240604-no-antibody-1
+    antibody_samples:
+      LibB-240604-S43752-1-1:
+        concentration: 1
+        use_in_fit: true
+      LibB-240604-S43752-4-1:
+        concentration: 4
+        use_in_fit: true
+      LibB-240604-S43752-16-1:
+        concentration: 16
+        use_in_fit: true
+      LibB-240604-S43752-32-1:
+        concentration: 32
+        use_in_fit: true
+      LibB-240604-S43752-64-1:
+        concentration: 64
+        use_in_fit: true
+      LibB-240604-S43752-128-1:
+        concentration: 128
+        use_in_fit: true
+  LibB-240604-S43752-2:
+    neut_standard_name: neut_standard
+    prob_escape_filters: *prob_escape_filters_default
+    polyclonal_params: *polyclonal_params_default
+    escape_plot_kwargs: *escape_plot_kwargs_default
+    plot_hide_stats: *plot_hide_stats_default
+    no_antibody_sample: LibB-240604-no-antibody-1
+    antibody_samples:
+      LibB-240604-S43752-1-1:
+        concentration: 1
+        use_in_fit: true
+      LibB-240604-S43752-4-1:
+        concentration: 4
+        use_in_fit: true
+      LibB-240604-S43752-16-1:
+        concentration: 16
+        use_in_fit: true
+      LibB-240604-S43752-32-1:
+        concentration: 32
+        use_in_fit: true
+      LibB-240604-S43752-64-1:
+        concentration: 64
+        use_in_fit: true
+      LibB-240604-S43752-128-1:
+        concentration: 128
         use_in_fit: true
 
 # --------------------------------------------------------------------------------------
@@ -483,7 +518,7 @@ avg_antibody_escape:
     <<: *avg_antibody_escape_default
     selections:
       - LibA-240507-S4378-1
-      - LibA-240507-S4378-2
+      - LibB-240619-S4378-1
   S43711:
     <<: *avg_antibody_escape_default
     selections:
@@ -493,22 +528,22 @@ avg_antibody_escape:
     <<: *avg_antibody_escape_default
     selections:
       - LibA-240507-S43727-1
-      - LibA-240507-S43727-2
+      - LibB-240619-S43727-1
   S43742:
     <<: *avg_antibody_escape_default
     selections:
       - LibA-240523-S43742-1
-      - LibA-240523-S43742-2
+      - LibB-240619-S43742-1
   S44428:
     <<: *avg_antibody_escape_default
     selections:
       - LibA-240523-S44428-1
-      - LibA-240523-S44428-2
+      - LibB-240624-S44428-1
   S44433:
     <<: *avg_antibody_escape_default
     selections:
       - LibA-240507-S44433-1
-      - LibA-240507-S44433-2
+      - LibB-240624-S44433-1
   S44446:
     <<: *avg_antibody_escape_default
     selections:
@@ -518,5 +553,10 @@ avg_antibody_escape:
     <<: *avg_antibody_escape_default
     selections:
       - LibA-240507-S44478-1
-      - LibA-240507-S44478-2
+      - LibB-240624-S44478-1
+  S43752:
+    <<: *avg_antibody_escape_default
+    selections:
+      - LibB-240604-S43752-1
+      - LibB-240604-S43752-2
   
