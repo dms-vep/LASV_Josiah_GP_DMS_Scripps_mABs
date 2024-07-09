@@ -431,22 +431,22 @@ antibody_selections:
     antibody_samples:
       LibB-240604-S43752-1-1:
         concentration: 1
-        use_in_fit: true
+        use_in_fit: false
       LibB-240604-S43752-4-1:
         concentration: 4
         use_in_fit: true
       LibB-240604-S43752-16-1:
         concentration: 16
-        use_in_fit: true
+        use_in_fit: false
       LibB-240604-S43752-32-1:
         concentration: 32
-        use_in_fit: true
+        use_in_fit: false
       LibB-240604-S43752-64-1:
         concentration: 64
-        use_in_fit: true
+        use_in_fit: false
       LibB-240604-S43752-128-1:
         concentration: 128
-        use_in_fit: true
+        use_in_fit: false
   LibB-240604-S43752-2:
     neut_standard_name: neut_standard
     prob_escape_filters: *prob_escape_filters_default
@@ -457,22 +457,22 @@ antibody_selections:
     antibody_samples:
       LibB-240604-S43752-1-1:
         concentration: 1
-        use_in_fit: true
+        use_in_fit: false
       LibB-240604-S43752-4-1:
         concentration: 4
         use_in_fit: true
       LibB-240604-S43752-16-1:
         concentration: 16
-        use_in_fit: true
+        use_in_fit: false
       LibB-240604-S43752-32-1:
         concentration: 32
-        use_in_fit: true
+        use_in_fit: false
       LibB-240604-S43752-64-1:
         concentration: 64
-        use_in_fit: true
+        use_in_fit: false
       LibB-240604-S43752-128-1:
         concentration: 128
-        use_in_fit: true
+        use_in_fit: false
 
 # --------------------------------------------------------------------------------------
 # Configuration for averaging and plotting selections for the same antibody
