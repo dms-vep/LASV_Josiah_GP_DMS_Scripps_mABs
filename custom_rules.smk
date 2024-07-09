@@ -31,7 +31,7 @@ rule configure_dms_viz:
         dms_viz_subdir="results/dms_viz/",
         pdb_file="7puy",
         times_seen=2,
-        n_selections=3,
+        n_selections=6,
         frac_models=1,
         cell_entry_default=-3,
     log:
@@ -79,7 +79,7 @@ rule get_filtered_csvs_and_plots:
         filtered_csv_dir="results/filtered_CSVs/",
         escape_plots_dir="results/escape_plots/",
         times_seen=2,
-        n_selections=3,
+        n_selections=6,
         frac_models=1,
         cell_entry_default=-3,
     log:
