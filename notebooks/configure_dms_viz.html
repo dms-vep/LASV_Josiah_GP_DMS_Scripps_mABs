@@ -7575,7 +7575,7 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs celltag_injected-parameters" id="cell-id=751d71cc">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs celltag_injected-parameters" id="cell-id=9d2253ed">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7592,7 +7592,7 @@ a.anchor-link {
 <span class="n">dms_viz_subdir</span> <span class="o">=</span> <span class="s2">"results/dms_viz/"</span>
 <span class="n">pdb_file</span> <span class="o">=</span> <span class="s2">"7puy"</span>
 <span class="n">times_seen</span> <span class="o">=</span> <span class="mi">2</span>
-<span class="n">n_selections</span> <span class="o">=</span> <span class="mi">6</span>
+<span class="n">n_selections</span> <span class="o">=</span> <span class="mi">8</span>
 <span class="n">frac_models</span> <span class="o">=</span> <span class="mi">1</span>
 <span class="n">cell_entry_default</span> <span class="o">=</span> <span class="o">-</span><span class="mi">3</span>
 </pre></div>
@@ -7619,7 +7619,7 @@ a.anchor-link {
 
 <span class="c1"># pdb_file = "7puy"</span>
 <span class="c1"># times_seen = 2</span>
-<span class="c1"># n_selections = 6</span>
+<span class="c1"># n_selections = 8</span>
 <span class="c1"># frac_models = 1</span>
 <span class="c1"># cell_entry_default = -3</span>
 </pre></div>
@@ -7661,6 +7661,7 @@ a.anchor-link {
 <span class="n">antibodies</span> <span class="o">=</span> <span class="p">[</span>
     <span class="s2">"S4378"</span><span class="p">,</span>
     <span class="s2">"S43711"</span><span class="p">,</span>
+    <span class="s2">"S43720"</span><span class="p">,</span>
     <span class="s2">"S43727"</span><span class="p">,</span>
     <span class="s2">"S43742"</span><span class="p">,</span>
     <span class="s2">"S44428"</span><span class="p">,</span>
@@ -7714,6 +7715,7 @@ a.anchor-link {
     <span class="c1"># phenotype columns and additional arguments to `configure-dms-viz`</span>
     <span class="s2">"S4378_escape"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"--floor"</span><span class="p">,</span> <span class="s2">"True"</span><span class="p">,</span> <span class="s2">"--summary-stat"</span><span class="p">,</span> <span class="s2">"sum"</span><span class="p">],</span>
     <span class="s2">"S43711_escape"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"--floor"</span><span class="p">,</span> <span class="s2">"True"</span><span class="p">,</span> <span class="s2">"--summary-stat"</span><span class="p">,</span> <span class="s2">"sum"</span><span class="p">],</span>
+    <span class="s2">"S43720_escape"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"--floor"</span><span class="p">,</span> <span class="s2">"True"</span><span class="p">,</span> <span class="s2">"--summary-stat"</span><span class="p">,</span> <span class="s2">"sum"</span><span class="p">],</span>
     <span class="s2">"S43727_escape"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"--floor"</span><span class="p">,</span> <span class="s2">"True"</span><span class="p">,</span> <span class="s2">"--summary-stat"</span><span class="p">,</span> <span class="s2">"sum"</span><span class="p">],</span>
     <span class="s2">"S43742_escape"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"--floor"</span><span class="p">,</span> <span class="s2">"True"</span><span class="p">,</span> <span class="s2">"--summary-stat"</span><span class="p">,</span> <span class="s2">"sum"</span><span class="p">],</span>
     <span class="s2">"S43752_escape"</span><span class="p">:</span> <span class="p">[</span><span class="s2">"--floor"</span><span class="p">,</span> <span class="s2">"False"</span><span class="p">,</span> <span class="s2">"--summary-stat"</span><span class="p">,</span> <span class="s2">"sum"</span><span class="p">],</span>
@@ -7749,7 +7751,7 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>{'cell_entry': [-4.189, -3, 0]}
+<pre>{'cell_entry': [-4.087, -3, 0]}
 </pre>
 </div>
 </div>
@@ -7842,6 +7844,8 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 
 'protein_site' column is not present in the sitemap. Assuming that the reference sites correspond to protein sites.
 
+Warning: The 'cell_entry' filter limit '-4.087' is less than the minimum value of -4.082. Setting the min value to -4.082.
+
 </pre>
 </div>
 </div>
@@ -7850,15 +7854,15 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>About 100.00% (407 of 407) of the wildtype residues in the data match the corresponding residues in the structure.
 About 16.94% (83 of 490) of the data sites are missing from the structure.
-
-Success! The visualization JSON was written to 'results/dms_viz/S4378_escape.json'
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Writing phenotype S43711_escape to results/dms_viz/S43711_escape.json
+<pre>
+Success! The visualization JSON was written to 'results/dms_viz/S4378_escape.json'
+Writing phenotype S43711_escape to results/dms_viz/S43711_escape.json
 </pre>
 </div>
 </div>
@@ -7874,6 +7878,8 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 
 'protein_site' column is not present in the sitemap. Assuming that the reference sites correspond to protein sites.
 
+Warning: The 'cell_entry' filter limit '-4.087' is less than the minimum value of -4.082. Setting the min value to -4.082.
+
 </pre>
 </div>
 </div>
@@ -7884,7 +7890,47 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 About 16.97% (83 of 489) of the data sites are missing from the structure.
 
 Success! The visualization JSON was written to 'results/dms_viz/S43711_escape.json'
-Writing phenotype S43727_escape to results/dms_viz/S43727_escape.json
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Writing phenotype S43720_escape to results/dms_viz/S43720_escape.json
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>
+Formatting data for visualization using the 'S43720_escape' column from 'results/dms_viz/phenotypes.csv'...
+
+Using sitemap from 'data/site_numbering_map.csv'.
+
+Warning: NaN values were found in the metric column. These rows will be filtered out.
+
+'protein_site' column is not present in the sitemap. Assuming that the reference sites correspond to protein sites.
+
+Warning: The 'cell_entry' filter limit '-4.087' is less than the minimum value of -4.082. Setting the min value to -4.082.
+
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>About 100.00% (408 of 408) of the wildtype residues in the data match the corresponding residues in the structure.
+About 16.90% (83 of 491) of the data sites are missing from the structure.
+
+Success! The visualization JSON was written to 'results/dms_viz/S43720_escape.json'
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Writing phenotype S43727_escape to results/dms_viz/S43727_escape.json
 </pre>
 </div>
 </div>
@@ -7900,6 +7946,8 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 
 'protein_site' column is not present in the sitemap. Assuming that the reference sites correspond to protein sites.
 
+Warning: The 'cell_entry' filter limit '-4.087' is less than the minimum value of -4.082. Setting the min value to -4.082.
+
 </pre>
 </div>
 </div>
@@ -7910,13 +7958,7 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 About 16.94% (83 of 490) of the data sites are missing from the structure.
 
 Success! The visualization JSON was written to 'results/dms_viz/S43727_escape.json'
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Writing phenotype S43742_escape to results/dms_viz/S43742_escape.json
+Writing phenotype S43742_escape to results/dms_viz/S43742_escape.json
 </pre>
 </div>
 </div>
@@ -7932,6 +7974,8 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 
 'protein_site' column is not present in the sitemap. Assuming that the reference sites correspond to protein sites.
 
+Warning: The 'cell_entry' filter limit '-4.087' is less than the minimum value of -4.082. Setting the min value to -4.082.
+
 </pre>
 </div>
 </div>
@@ -7942,7 +7986,13 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 About 16.94% (83 of 490) of the data sites are missing from the structure.
 
 Success! The visualization JSON was written to 'results/dms_viz/S43742_escape.json'
-Writing phenotype S43752_escape to results/dms_viz/S43752_escape.json
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Writing phenotype S43752_escape to results/dms_viz/S43752_escape.json
 </pre>
 </div>
 </div>
@@ -7957,6 +8007,8 @@ Using sitemap from 'data/site_numbering_map.csv'.
 Warning: NaN values were found in the metric column. These rows will be filtered out.
 
 'protein_site' column is not present in the sitemap. Assuming that the reference sites correspond to protein sites.
+
+Warning: The 'cell_entry' filter limit '-4.087' is less than the minimum value of -4.082. Setting the min value to -4.082.
 
 </pre>
 </div>
@@ -8054,6 +8106,8 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 
 'protein_site' column is not present in the sitemap. Assuming that the reference sites correspond to protein sites.
 
+Warning: The 'cell_entry' filter limit '-4.087' is less than the minimum value of -4.082. Setting the min value to -4.082.
+
 </pre>
 </div>
 </div>
@@ -8064,13 +8118,7 @@ Warning: NaN values were found in the metric column. These rows will be filtered
 About 16.97% (83 of 489) of the data sites are missing from the structure.
 
 Success! The visualization JSON was written to 'results/dms_viz/S44446_escape.json'
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Writing phenotype S44478_escape to results/dms_viz/S44478_escape.json
+Writing phenotype S44478_escape to results/dms_viz/S44478_escape.json
 </pre>
 </div>
 </div>
@@ -8124,15 +8172,15 @@ Using sitemap from 'data/site_numbering_map.csv'.
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>About 100.00% (408 of 408) of the wildtype residues in the data match the corresponding residues in the structure.
 About 16.90% (83 of 491) of the data sites are missing from the structure.
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>
+
 Success! The visualization JSON was written to 'results/dms_viz/cell_entry.json'
-Concatenating phenotype JSONs to results/dms_viz/dms_viz.json
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Concatenating phenotype JSONs to results/dms_viz/dms_viz.json
 </pre>
 </div>
 </div>
@@ -8140,14 +8188,14 @@ Concatenating phenotype JSONs to results/dms_viz/dms_viz.json
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>
-Success! 10 JSON files were merged and saved to 'results/dms_viz/dms_viz.json'
+Success! 11 JSON files were merged and saved to 'results/dms_viz/dms_viz.json'
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>CompletedProcess(args=['configure-dms-viz', 'join', '--input', 'results/dms_viz/S4378_escape.json, results/dms_viz/S43711_escape.json, results/dms_viz/S43727_escape.json, results/dms_viz/S43742_escape.json, results/dms_viz/S43752_escape.json, results/dms_viz/S44428_escape.json, results/dms_viz/S44433_escape.json, results/dms_viz/S44446_escape.json, results/dms_viz/S44478_escape.json, results/dms_viz/cell_entry.json', '--output', 'results/dms_viz/dms_viz.json', '--description', 'results/dms_viz/description.md'], returncode=0)</pre>
+<pre>CompletedProcess(args=['configure-dms-viz', 'join', '--input', 'results/dms_viz/S4378_escape.json, results/dms_viz/S43711_escape.json, results/dms_viz/S43720_escape.json, results/dms_viz/S43727_escape.json, results/dms_viz/S43742_escape.json, results/dms_viz/S43752_escape.json, results/dms_viz/S44428_escape.json, results/dms_viz/S44433_escape.json, results/dms_viz/S44446_escape.json, results/dms_viz/S44478_escape.json, results/dms_viz/cell_entry.json', '--output', 'results/dms_viz/dms_viz.json', '--description', 'results/dms_viz/description.md'], returncode=0)</pre>
 </div>
 </div>
 </div>
