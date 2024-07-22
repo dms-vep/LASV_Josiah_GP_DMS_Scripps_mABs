@@ -11,6 +11,7 @@ rule configure_dms_viz:
         # dummy files for correct rule ordering
         "results/antibody_escape/averages/S4378_mut_effect.csv",
         "results/antibody_escape/averages/S43711_mut_effect.csv",
+        "results/antibody_escape/averages/S43720_mut_effect.csv",
         "results/antibody_escape/averages/S43727_mut_effect.csv",
         "results/antibody_escape/averages/S43742_mut_effect.csv",
         "results/antibody_escape/averages/S43752_mut_effect.csv",
@@ -31,7 +32,7 @@ rule configure_dms_viz:
         dms_viz_subdir="results/dms_viz/",
         pdb_file="7puy",
         times_seen=2,
-        n_selections=6,
+        n_selections=8,
         frac_models=1,
         cell_entry_default=-3,
     log:
@@ -61,6 +62,7 @@ rule get_filtered_csvs_and_plots:
         # dummy files for correct rule ordering
         "results/antibody_escape/averages/S4378_mut_effect.csv",
         "results/antibody_escape/averages/S43711_mut_effect.csv",
+        "results/antibody_escape/averages/S43720_mut_effect.csv",
         "results/antibody_escape/averages/S43727_mut_effect.csv",
         "results/antibody_escape/averages/S43742_mut_effect.csv",
         "results/antibody_escape/averages/S43752_mut_effect.csv",
@@ -79,7 +81,7 @@ rule get_filtered_csvs_and_plots:
         filtered_csv_dir="results/filtered_CSVs/",
         escape_plots_dir="results/escape_plots/",
         times_seen=2,
-        n_selections=6,
+        n_selections=8,
         frac_models=1,
         cell_entry_default=-3,
     log:

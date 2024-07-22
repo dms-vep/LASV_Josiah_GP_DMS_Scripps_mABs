@@ -190,6 +190,47 @@ antibody_selections:
         concentration: 96
         use_in_fit: true
 
+  LibA-240720-S43720-1:
+    neut_standard_name: neut_standard
+    prob_escape_filters: *prob_escape_filters_default
+    polyclonal_params: *polyclonal_params_default
+    escape_plot_kwargs: *escape_plot_kwargs_default
+    plot_hide_stats: *plot_hide_stats_default
+    no_antibody_sample: LibA-240720-no-antibody-1
+    antibody_samples:
+      LibA-240720-S43720-1-1:
+        concentration: 1
+        use_in_fit: true
+      LibA-240720-S43720-4-1:
+        concentration: 4
+        use_in_fit: true
+      LibA-240720-S43720-8-1:
+        concentration: 8
+        use_in_fit: true
+      LibA-240720-S43720-16-1:
+        concentration: 16
+        use_in_fit: true
+  LibB-240720-S43720-1:
+    neut_standard_name: neut_standard
+    prob_escape_filters: *prob_escape_filters_default
+    polyclonal_params: *polyclonal_params_default
+    escape_plot_kwargs: *escape_plot_kwargs_default
+    plot_hide_stats: *plot_hide_stats_default
+    no_antibody_sample: LibB-240720-no-antibody-1
+    antibody_samples:
+      LibB-240720-S43720-1-1:
+        concentration: 1
+        use_in_fit: true
+      LibB-240720-S43720-4-1:
+        concentration: 4
+        use_in_fit: true
+      LibB-240720-S43720-8-1:
+        concentration: 8
+        use_in_fit: true
+      LibB-240720-S43720-16-1:
+        concentration: 16
+        use_in_fit: true
+
   LibA-240507-S43727-1:
     neut_standard_name: neut_standard
     prob_escape_filters: *prob_escape_filters_default
@@ -524,6 +565,11 @@ avg_antibody_escape:
     selections:
       - LibA-240507-S43711-1
       - LibB-240523-S43711-1
+  S43720:
+    <<: *avg_antibody_escape_default
+    selections:
+      - LibA-240720-S43720-1
+      - LibB-240720-S43720-1
   S43727:
     <<: *avg_antibody_escape_default
     selections:

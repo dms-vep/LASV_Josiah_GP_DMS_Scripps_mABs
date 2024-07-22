@@ -37,3 +37,61 @@ phenotypes:
       max_at_least: 1
       min_at_least: 0
       init_min_value: -3  # initial min value in slider
+
+
+GPC-A_type_antibodies:
+  min_times_seen: 2  # only include mutations with times_seen >= this
+  min_frac_models: 1  # only include mutations in >= this fraction of models
+  alphabet: ['R','K','H','D','E','Q','N','S','T','Y','W','F','A','I','L','M','V','G','P','C','*']  # amino acids to include
+  init_floor_escape_at_zero: true  # initially floor site escape to be >= 0?
+  init_site_escape_stat: sum  # initially show site escape as this statistic
+  antibody_escape:  # show effects on antibody escape, empty dict if no antibodies being shown
+    antibodies:  # name each set of antibodies
+      stat: escape_median  # statistic to use for escape
+      positive_color: "#56B4E9"  # light blue, positive heatmap color
+      negative_color: "#E69F00"  # orange, negative heatmap color
+      max_at_least: 1  # make heatmap max at least
+      min_at_least: -1  # make heatmap min at least this
+      antibody_list:  # antibodies to include: keys name used for `avg_escape`, values name for plot
+        S43711: results/antibody_escape/averages/S43711_mut_effect.csv 
+        S44428: results/antibody_escape/averages/S44428_mut_effect.csv
+        S44446: results/antibody_escape/averages/S44446_mut_effect.csv
+        S44478: results/antibody_escape/averages/S44478_mut_effect.csv
+  other_phenotypes:
+    entry in 293T cells:  
+      csv: results/func_effects/averages/293T_entry_func_effects.csv  # CSV w data
+      stat: effect  # column to plot
+      positive_color: "#009E73"  # green
+      negative_color: "#F0E442"  # yellow
+      max_at_least: 1
+      min_at_least: 0
+      init_min_value: -3  # initial min value in slider
+
+
+unique_antibodies:
+  min_times_seen: 2  # only include mutations with times_seen >= this
+  min_frac_models: 1  # only include mutations in >= this fraction of models
+  alphabet: ['R','K','H','D','E','Q','N','S','T','Y','W','F','A','I','L','M','V','G','P','C','*']  # amino acids to include
+  init_floor_escape_at_zero: true  # initially floor site escape to be >= 0?
+  init_site_escape_stat: sum  # initially show site escape as this statistic
+  antibody_escape:  # show effects on antibody escape, empty dict if no antibodies being shown
+    antibodies:  # name each set of antibodies
+      stat: escape_median  # statistic to use for escape
+      positive_color: "#56B4E9"  # light blue, positive heatmap color
+      negative_color: "#E69F00"  # orange, negative heatmap color
+      max_at_least: 1  # make heatmap max at least
+      min_at_least: -1  # make heatmap min at least this
+      antibody_list:  # antibodies to include: keys name used for `avg_escape`, values name for plot
+        S4378: results/antibody_escape/averages/S4378_mut_effect.csv
+        S43727: results/antibody_escape/averages/S43727_mut_effect.csv
+        S43742: results/antibody_escape/averages/S43742_mut_effect.csv
+        S44433: results/antibody_escape/averages/S44433_mut_effect.csv
+  other_phenotypes:
+    entry in 293T cells:  
+      csv: results/func_effects/averages/293T_entry_func_effects.csv  # CSV w data
+      stat: effect  # column to plot
+      positive_color: "#009E73"  # green
+      negative_color: "#F0E442"  # yellow
+      max_at_least: 1
+      min_at_least: 0
+      init_min_value: -3  # initial min value in slider

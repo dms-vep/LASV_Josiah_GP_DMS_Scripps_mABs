@@ -4,8 +4,6 @@ aside: true
 
 # Escape from monoclonal antibodies
 
-**Currently only antibodies S437.11 and S444.46 are fully mapped. The remaining antibodies only have preliminary data from one biological replicate.**
-
 The plots below show how mutations affect neutralization by a panel of monoclonal antibodies. The plots are interactive, and allow you to zoom and mouseover sites and mutations. Positive values indicate reduced neutralization by antibody while negative values indicate more neutralization. Note that the two different shades of gray in the heatmaps have differing meanings: light gray means a mutation was *missing (not measured)* in the library, whereas dark gray means a mutation *was measured but was so deleterious for cell entry* it is not possible to reliably estimate its effect on antibody escape (the threshold for how deleterious a mutation must be for cell entry to be shown in dark gray is controlled by the cell entry slider at the bottom of the plot).
 
 Here is an explanation of the key elements for each plot:
@@ -29,6 +27,13 @@ Here is an explanation of the key elements for each plot:
 
 <Figure caption="Interactive plot showing effects of mutations on antibody S437.11 escape">
     <Altair :showShadow="true" :spec-url="'htmls/S43711_mut_effect.html'"></Altair>
+</Figure>
+
+## Antibody S437.20
+- The plot below shows how mutations affect neutralization by the monoclonal antibody S437.20. Click on the expansion box in the upper right of the plot to enlarge it for easier viewing, or [click here](/htmls/S43720_mut_effect.html){target="_self"} to open the plot in a stand-alone window.
+
+<Figure caption="Interactive plot showing effects of mutations on antibody S437.20 escape">
+    <Altair :showShadow="true" :spec-url="'htmls/S43720_mut_effect.html'"></Altair>
 </Figure>
 
 ## Antibody S437.27
