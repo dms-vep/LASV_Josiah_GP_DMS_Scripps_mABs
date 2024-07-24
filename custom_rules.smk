@@ -8,7 +8,7 @@ This file is included by the pipeline ``Snakefile``.
 rule configure_dms_viz:
     """Configure a JSON file for `dms-viz`."""
     input:
-        # dummy files for correct rule ordering
+        # files for correct rule ordering
         "results/antibody_escape/averages/S4378_mut_effect.csv",
         "results/antibody_escape/averages/S43711_mut_effect.csv",
         "results/antibody_escape/averages/S43720_mut_effect.csv",
@@ -59,7 +59,7 @@ rule configure_dms_viz:
 rule get_filtered_csvs_and_plots:
     """Create filtered CSV files and static escape plots."""
     input:
-        # dummy files for correct rule ordering
+        # files for correct rule ordering
         "results/antibody_escape/averages/S4378_mut_effect.csv",
         "results/antibody_escape/averages/S43711_mut_effect.csv",
         "results/antibody_escape/averages/S43720_mut_effect.csv",
@@ -74,6 +74,17 @@ rule get_filtered_csvs_and_plots:
         func_scores="results/func_effects/averages/293T_entry_func_effects.csv",
         nb="analysis_notebooks/get_filtered_CSVs.ipynb",
     output:
+        # dummy files for correct rule ordering
+        "results/filtered_CSVs/S4378_filtered_mut_effects.csv",
+        "results/filtered_CSVs/S43711_filtered_mut_effects.csv",
+        "results/filtered_CSVs/S43720_filtered_mut_effects.csv",
+        "results/filtered_CSVs/S43727_filtered_mut_effects.csv",
+        "results/filtered_CSVs/S43742_filtered_mut_effects.csv",
+        "results/filtered_CSVs/S43752_filtered_mut_effects.csv",
+        "results/filtered_CSVs/S44428_filtered_mut_effects.csv",
+        "results/filtered_CSVs/S44433_filtered_mut_effects.csv",
+        "results/filtered_CSVs/S44446_filtered_mut_effects.csv",
+        "results/filtered_CSVs/S44478_filtered_mut_effects.csv",
         filtered_func_scores="results/filtered_CSVs/293T_entry_filtered_mut_effects.csv",
         nb="results/notebooks/get_filtered_CSVs.ipynb",
     params:
@@ -103,6 +114,42 @@ rule get_filtered_csvs_and_plots:
             &> {log}
         """
 
+rule map_scores_onto_pdb:
+    """Map scores onto PDB structure."""
+    input:
+        # files for correct rule ordering
+        "results/filtered_CSVs/S4378_filtered_mut_effects.csv",
+        "results/filtered_CSVs/S43711_filtered_mut_effects.csv",
+        "results/filtered_CSVs/S43720_filtered_mut_effects.csv",
+        "results/filtered_CSVs/S43727_filtered_mut_effects.csv",
+        "results/filtered_CSVs/S43742_filtered_mut_effects.csv",
+        "results/filtered_CSVs/S43752_filtered_mut_effects.csv",
+        "results/filtered_CSVs/S44428_filtered_mut_effects.csv",
+        "results/filtered_CSVs/S44433_filtered_mut_effects.csv",
+        "results/filtered_CSVs/S44446_filtered_mut_effects.csv",
+        "results/filtered_CSVs/S44478_filtered_mut_effects.csv",
+        # input files
+        pdb_file="data/7puy.pdb",
+        nb="analysis_notebooks/pdb_mapping.ipynb",
+    output:
+        nb="results/notebooks/pdb_mapping.ipynb",
+    params:
+        pdb_dir="results/mapped_scores_onto_pdb/",
+        filtered_csv_dir="results/filtered_CSVs/",
+    log:
+        "results/logs/map_scores_onto_pdb.txt",
+    conda:
+        os.path.join(config["pipeline_path"], "environment.yml")
+    shell:
+        """
+        papermill {input.nb} {output.nb} \
+            -p pdb_file {input.pdb_file} \
+            -p pdb_dir {params.pdb_dir} \
+            -p filtered_csv_dir {params.filtered_csv_dir} \
+            &> {log}
+        """
+
+
 # Files (Jupyter notebooks, HTML plots, or CSVs) that you want included in
 # the HTML docs should be added to the nested dict `docs`:
 docs["Additional files"] = {
@@ -111,5 +158,8 @@ docs["Additional files"] = {
     },
     "Create pre-filtered files and escape plots":{
         "Notebook configuring data filtering and plotting" : rules.get_filtered_csvs_and_plots.output.nb,
+    },
+    "Map DMS scores onto PDB structure":{
+        "Notebook mapping scores onto pdb structure" : rules.map_scores_onto_pdb.output.nb,
     },
 }

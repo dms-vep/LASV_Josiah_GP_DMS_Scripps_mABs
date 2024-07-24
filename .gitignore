@@ -73,6 +73,24 @@ results/filtered_CSVs/*
 results/escape_plots/*
 !results/escape_plots/*.svg
 
+!results/mapped_scores_onto_pdb/
+results/mapped_scores_onto_pdb/*
+!results/mapped_scores_onto_pdb/*.pdb
+
+non-pipeline_analyses/*
+
+!non-pipeline_analyses/pdb_viewing/
+non-pipeline_analyses/pdb_viewing/*
+!non-pipeline_analyses/pdb_viewing/*.png
+
+!non-pipeline_analyses/neutralization_curves/
+non-pipeline_analyses/neutralization_curves/*
+!non-pipeline_analyses/neutralization_curves/*.svg
+!non-pipeline_analyses/neutralization_curves/*.ipynb
+!non-pipeline_analyses/neutralization_curves/data
+non-pipeline_analyses/neutralization_curves/data/*
+!non-pipeline_analyses/neutralization_curves/data*.xlsx
+
 node_modules/
 !homepage/.vitepress/
 homepage/.vitepress/cache/
