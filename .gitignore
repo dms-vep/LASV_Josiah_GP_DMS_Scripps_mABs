@@ -73,6 +73,10 @@ results/filtered_CSVs/*
 results/escape_plots/*
 !results/escape_plots/*.svg
 
+!results/escape_plots/subset_analysis_plots
+results/escape_plots/subset_analysis_plots/*
+!results/escape_plots/subset_analysis_plots/*.svg
+
 !results/mapped_scores_onto_pdb/
 results/mapped_scores_onto_pdb/*
 !results/mapped_scores_onto_pdb/*.pdb
@@ -89,7 +93,7 @@ non-pipeline_analyses/neutralization_curves/*
 !non-pipeline_analyses/neutralization_curves/*.ipynb
 !non-pipeline_analyses/neutralization_curves/data
 non-pipeline_analyses/neutralization_curves/data/*
-!non-pipeline_analyses/neutralization_curves/data*.xlsx
+!non-pipeline_analyses/neutralization_curves/data/*.xlsx
 
 node_modules/
 !homepage/.vitepress/
