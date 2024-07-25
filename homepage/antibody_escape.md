@@ -80,8 +80,8 @@ Here is an explanation of the key elements for each plot:
 
 ## Static logo plots of escape
 
-For static logoplot versions of escape, see [these svg files](https://github.com/dms-vep/LASV_Josiah_GP_DMS_Scripps_mABs/tree/main/results/escape_plots). Currently only antibodies S437.11 and S444.46 are fully mapped. The remaining antibodies only have preliminary data from one biological replicate.
+For static logoplot versions of escape, see [these svg files](https://github.com/dms-vep/LASV_Josiah_GP_DMS_Scripps_mABs/tree/main/results/escape_plots).
 
 ## Numerical values of escape
 
-For per-antibody escape values, see [these CSV files](https://github.com/dms-vep/LASV_Josiah_GP_DMS_Scripps_mABs/tree/main/results/filtered_CSVs). Currently only antibodies S437.11 and S444.46 are fully mapped. The remaining antibodies only have preliminary data from one biological replicate.
+For per-antibody escape values, see [these CSV files](https://github.com/dms-vep/LASV_Josiah_GP_DMS_Scripps_mABs/tree/main/results/filtered_CSVs).
