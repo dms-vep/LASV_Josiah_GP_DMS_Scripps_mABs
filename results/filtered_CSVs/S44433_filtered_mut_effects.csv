@@ -153,7 +153,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 18,V,T,V18T,-0.01607,False,0.0
 19,M,A,M19A,-1.363,False,0.0
 19,M,C,M19C,-0.08009,False,0.0
-19,M,E,M19E,-0.194,False,0.0
+19,M,E,M19E,,True,
 19,M,F,M19F,0.1087,False,0.1087
 19,M,G,M19G,-0.03606,False,0.0
 19,M,I,M19I,0.262,False,0.262
@@ -221,7 +221,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 28,V,M,V28M,0.1974,False,0.1974
 28,V,P,V28P,0.1315,False,0.1315
 28,V,R,V28R,,True,
-28,V,S,V28S,1.442,False,1.442
+28,V,S,V28S,,True,
 28,V,Y,V28Y,,True,
 29,L,A,L29A,-0.04568,False,0.0
 29,L,C,L29C,0.7576,False,0.7576
@@ -354,7 +354,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 44,V,Y,V44Y,1.696,False,1.696
 45,G,A,G45A,-0.1806,False,0.0
 45,G,E,G45E,-0.5666,False,0.0
-45,G,K,G45K,-2.008,False,0.0
+45,G,K,G45K,,True,
 45,G,L,G45L,-0.1189,False,0.0
 45,G,P,G45P,0.1784,False,0.1784
 45,G,Q,G45Q,1.752,False,1.752
@@ -609,7 +609,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 66,Y,F,Y66F,0.6631,False,0.6631
 66,Y,I,Y66I,-0.2228,False,0.0
 66,Y,K,Y66K,,True,
-66,Y,L,Y66L,0.4842,False,0.4842
+66,Y,L,Y66L,,True,
 66,Y,M,Y66M,-0.1536,False,0.0
 66,Y,N,Y66N,,True,
 66,Y,S,Y66S,,True,
@@ -703,7 +703,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 74,N,C,N74C,0.02967,False,0.02967
 74,N,D,N74D,-0.06479,False,0.0
 74,N,F,N74F,1.218,False,1.218
-74,N,I,N74I,-0.9103,False,0.0
+74,N,I,N74I,,True,
 74,N,K,N74K,3.05,False,3.05
 74,N,L,N74L,2.683,False,2.683
 74,N,M,N74M,0.5669,False,0.5669
@@ -803,7 +803,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 82,M,Q,M82Q,,True,
 82,M,R,M82R,,True,
 82,M,S,M82S,,True,
-82,M,T,M82T,0.003253,False,0.003253
+82,M,T,M82T,,True,
 82,M,V,M82V,0.2387,False,0.2387
 82,M,Y,M82Y,3.611,False,3.611
 83,P,A,P83A,0.2555,False,0.2555
@@ -907,9 +907,9 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 91,S,A,S91A,0.5008,False,0.5008
 91,S,D,S91D,0.4025,False,0.4025
 91,S,F,S91F,,True,
-91,S,G,S91G,0.6713,False,0.6713
+91,S,G,S91G,,True,
 91,S,I,S91I,,True,
-91,S,L,S91L,-0.2077,False,0.0
+91,S,L,S91L,,True,
 91,S,M,S91M,-0.6513,False,0.0
 91,S,N,S91N,0.1687,False,0.1687
 91,S,Q,S91Q,0.4746,False,0.4746
@@ -943,7 +943,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 94,Y,I,Y94I,,True,
 94,Y,L,Y94L,,True,
 94,Y,N,Y94N,,True,
-95,I,F,I95F,-0.7089,False,0.0
+95,I,F,I95F,,True,
 96,M,F,M96F,0.5242,False,0.5242
 96,M,H,M96H,0.01996,False,0.01996
 96,M,I,M96I,0.3955,False,0.3955
@@ -977,7 +977,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 98,G,F,G98F,-0.5806,False,0.0
 98,G,H,G98H,2.257,False,2.257
 98,G,I,G98I,,True,
-98,G,K,G98K,,True,
+98,G,K,G98K,1.081,False,1.081
 98,G,L,G98L,4.349,False,4.349
 98,G,M,G98M,-0.03179,False,0.0
 98,G,N,G98N,0.1557,False,0.1557
@@ -1044,7 +1044,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 102,G,E,G102E,,True,
 102,G,I,G102I,2.167,False,2.167
 102,G,M,G102M,,True,
-102,G,P,G102P,,True,
+102,G,P,G102P,3.864,False,3.864
 102,G,R,G102R,1.504,False,1.504
 102,G,S,G102S,1.066,False,1.066
 102,G,T,G102T,-0.1461,False,0.0
@@ -1066,7 +1066,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 103,L,S,L103S,,True,
 103,L,T,L103T,,True,
 103,L,V,L103V,0.565,False,0.565
-103,L,Y,L103Y,0.7256,False,0.7256
+103,L,Y,L103Y,,True,
 104,E,A,E104A,-0.2779,False,0.0
 104,E,C,E104C,0.08349,False,0.08349
 104,E,D,E104D,0.5813,False,0.5813
@@ -1176,7 +1176,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 112,I,L,I112L,-1.171,False,0.0
 112,I,M,I112M,0.147,False,0.147
 112,I,N,I112N,-0.3021,False,0.0
-112,I,R,I112R,-0.1314,False,0.0
+112,I,R,I112R,,True,
 112,I,S,I112S,0.01954,False,0.01954
 112,I,T,I112T,0.01713,False,0.01713
 112,I,V,I112V,-0.3826,False,0.0
@@ -1201,7 +1201,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 115,H,D,H115D,-0.07159,False,0.0
 115,H,F,H115F,0.009051,False,0.009051
 115,H,G,H115G,0.3439,False,0.3439
-115,H,L,H115L,0.02901,False,0.02901
+115,H,L,H115L,,True,
 115,H,N,H115N,1.453,False,1.453
 115,H,P,H115P,0.3906,False,0.3906
 115,H,R,H115R,-0.2937,False,0.0
@@ -1254,7 +1254,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 119,N,K,N119K,2.068,False,2.068
 119,N,L,N119L,2.394,False,2.394
 119,N,M,N119M,0.6632,False,0.6632
-119,N,P,N119P,0.06765,False,0.06765
+119,N,P,N119P,,True,
 119,N,R,N119R,0.563,False,0.563
 119,N,S,N119S,1.03,False,1.03
 119,N,T,N119T,1.358,False,1.358
@@ -1392,7 +1392,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 129,Y,L,Y129L,6.653,False,6.653
 129,Y,M,Y129M,4.983,False,4.983
 129,Y,N,Y129N,3.591,False,3.591
-129,Y,P,Y129P,,True,
+129,Y,P,Y129P,2.264,False,2.264
 129,Y,Q,Y129Q,4.046,False,4.046
 129,Y,R,Y129R,1.534,False,1.534
 129,Y,S,Y129S,1.996,False,1.996
@@ -1586,7 +1586,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 143,S,W,S143W,3.436,False,3.436
 143,S,Y,S143Y,5.568,False,5.568
 144,I,A,I144A,2.772,False,2.772
-144,I,F,I144F,4.123,False,4.123
+144,I,F,I144F,,True,
 144,I,H,I144H,2.533,False,2.533
 144,I,L,I144L,0.6783,False,0.6783
 144,I,M,I144M,0.5578,False,0.5578
@@ -1724,7 +1724,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 153,M,P,M153P,3.814,False,3.814
 153,M,Q,M153Q,1.824,False,1.824
 153,M,R,M153R,4.342,False,4.342
-153,M,S,M153S,1.075,False,1.075
+153,M,S,M153S,,True,
 153,M,T,M153T,4.194,False,4.194
 153,M,V,M153V,2.216,False,2.216
 153,M,W,M153W,0.735,False,0.735
@@ -1746,7 +1746,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 155,C,E,C155E,,True,
 155,C,F,C155F,,True,
 155,C,G,C155G,,True,
-155,C,H,C155H,0.03522,False,0.03522
+155,C,H,C155H,,True,
 155,C,I,C155I,,True,
 155,C,K,C155K,,True,
 155,C,L,C155L,,True,
@@ -1785,7 +1785,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 157,F,L,F157L,0.5109,False,0.5109
 157,F,M,F157M,0.8062,False,0.8062
 157,F,N,F157N,-2.335,False,0.0
-157,F,R,F157R,2.016,False,2.016
+157,F,R,F157R,,True,
 157,F,S,F157S,6.015,False,6.015
 157,F,T,F157T,4.641,False,4.641
 157,F,V,F157V,6.197,False,6.197
@@ -2177,14 +2177,14 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 184,A,H,A184H,0.4176,False,0.4176
 184,A,I,A184I,0.4942,False,0.4942
 184,A,L,A184L,0.629,False,0.629
-184,A,N,A184N,0.03752,False,0.03752
+184,A,N,A184N,,True,
 184,A,P,A184P,1.411,False,1.411
 184,A,S,A184S,0.2722,False,0.2722
 184,A,T,A184T,0.3773,False,0.3773
 184,A,V,A184V,0.6089,False,0.6089
 184,A,Y,A184Y,-1.141,False,0.0
 185,N,A,N185A,0.06681,False,0.06681
-185,N,C,N185C,1.001,False,1.001
+185,N,C,N185C,,True,
 185,N,D,N185D,0.2503,False,0.2503
 185,N,E,N185E,1.159,False,1.159
 185,N,I,N185I,,True,
@@ -2237,7 +2237,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 190,T,L,T190L,5.585,False,5.585
 190,T,N,T190N,3.355,False,3.355
 190,T,Q,T190Q,1.522,False,1.522
-190,T,R,T190R,4.336,False,4.336
+190,T,R,T190R,,True,
 190,T,S,T190S,-0.0576,False,0.0
 190,T,V,T190V,0.03079,False,0.03079
 190,T,Y,T190Y,,True,
@@ -2325,7 +2325,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 197,G,K,G197K,0.3283,False,0.3283
 197,G,L,G197L,0.7678,False,0.7678
 197,G,M,G197M,0.517,False,0.517
-197,G,P,G197P,0.01569,False,0.01569
+197,G,P,G197P,,True,
 197,G,Q,G197Q,-0.01505,False,0.0
 197,G,R,G197R,-0.3096,False,0.0
 197,G,S,G197S,0.1615,False,0.1615
@@ -2544,7 +2544,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 211,D,S,D211S,0.8233,False,0.8233
 211,D,T,D211T,0.2253,False,0.2253
 211,D,V,D211V,0.6193,False,0.6193
-212,C,A,C212A,0.04129,False,0.04129
+212,C,A,C212A,,True,
 212,C,D,C212D,,True,
 212,C,F,C212F,,True,
 212,C,G,C212G,,True,
@@ -2653,7 +2653,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 219,Y,M,Y219M,0.03883,False,0.03883
 219,Y,N,Y219N,,True,
 219,Y,S,Y219S,,True,
-220,L,A,L220A,2.083,False,2.083
+220,L,A,L220A,,True,
 220,L,C,L220C,0.6061,False,0.6061
 220,L,D,L220D,,True,
 220,L,F,L220F,-0.2203,False,0.0
@@ -2663,7 +2663,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 220,L,N,L220N,,True,
 220,L,P,L220P,2.26,False,2.26
 220,L,R,L220R,,True,
-220,L,S,L220S,-2.742,False,0.0
+220,L,S,L220S,,True,
 220,L,T,L220T,,True,
 220,L,V,L220V,-0.1157,False,0.0
 220,L,Y,L220Y,,True,
@@ -2682,7 +2682,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 222,I,F,I222F,0.1294,False,0.1294
 222,I,L,I222L,0.1224,False,0.1224
 222,I,M,I222M,0.05141,False,0.05141
-222,I,N,I222N,-0.865,False,0.0
+222,I,N,I222N,,True,
 222,I,P,I222P,,True,
 222,I,Q,I222Q,,True,
 222,I,S,I222S,,True,
@@ -2855,7 +2855,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 233,F,Y,F233Y,0.3208,False,0.3208
 234,S,A,S234A,2.12,False,2.12
 234,S,C,S234C,0.5561,False,0.5561
-234,S,F,S234F,0.701,False,0.701
+234,S,F,S234F,,True,
 234,S,I,S234I,,True,
 234,S,L,S234L,,True,
 234,S,N,S234N,-0.05828,False,0.0
@@ -3365,7 +3365,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 276,G,T,G276T,0.332,False,0.332
 276,G,V,G276V,-0.4115,False,0.0
 276,G,Y,G276Y,-0.9948,False,0.0
-277,G,A,G277A,1.788,False,1.788
+277,G,A,G277A,,True,
 277,G,D,G277D,,True,
 277,G,I,G277I,,True,
 277,G,L,G277L,,True,
@@ -3397,7 +3397,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 280,L,C,L280C,,True,
 280,L,F,L280F,0.1022,False,0.1022
 280,L,H,L280H,,True,
-280,L,I,L280I,0.8134,False,0.8134
+280,L,I,L280I,,True,
 280,L,N,L280N,,True,
 280,L,P,L280P,,True,
 280,L,R,L280R,,True,
@@ -3413,7 +3413,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 281,T,V,T281V,0.05213,False,0.05213
 281,T,Y,T281Y,0.8047,False,0.8047
 282,R,C,R282C,-0.02379,False,0.0
-282,R,F,R282F,0.2771,False,0.2771
+282,R,F,R282F,,True,
 282,R,H,R282H,-0.933,False,0.0
 282,R,I,R282I,-0.08589,False,0.0
 282,R,K,R282K,-0.02492,False,0.0
@@ -3451,7 +3451,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 285,L,M,L285M,0.09147,False,0.09147
 285,L,P,L285P,,True,
 285,L,Q,L285Q,,True,
-285,L,T,L285T,0.4363,False,0.4363
+285,L,T,L285T,,True,
 285,L,V,L285V,-0.17,False,0.0
 286,I,F,I286F,-1.577,False,0.0
 286,I,L,I286L,0.05519,False,0.05519
@@ -3499,7 +3499,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 289,E,A,E289A,-0.008836,False,0.0
 289,E,G,E289G,-0.3627,False,0.0
 289,E,K,E289K,0.3172,False,0.3172
-289,E,L,E289L,0.1043,False,0.1043
+289,E,L,E289L,,True,
 289,E,R,E289R,0.1285,False,0.1285
 289,E,S,E289S,-0.3755,False,0.0
 289,E,V,E289V,0.6837,False,0.6837
@@ -3542,7 +3542,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 294,G,S,G294S,-0.09005,False,0.0
 294,G,T,G294T,-0.4786,False,0.0
 294,G,V,G294V,0.4071,False,0.4071
-294,G,W,G294W,0.8498,False,0.8498
+294,G,W,G294W,,True,
 295,N,D,N295D,-0.5516,False,0.0
 295,N,F,N295F,,True,
 295,N,I,N295I,,True,
@@ -3594,8 +3594,8 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 298,V,T,V298T,0.003258,False,0.003258
 298,V,W,V298W,0.451,False,0.451
 298,V,Y,V298Y,-0.6427,False,0.0
-299,A,H,A299H,0.1374,False,0.1374
-299,A,K,A299K,0.9146,False,0.9146
+299,A,H,A299H,,True,
+299,A,K,A299K,,True,
 299,A,L,A299L,0.3323,False,0.3323
 299,A,N,A299N,-0.5709,False,0.0
 299,A,S,A299S,-1.753,False,0.0
@@ -3653,7 +3653,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 303,E,W,E303W,0.1278,False,0.1278
 303,E,Y,E303Y,-1.883,False,0.0
 304,K,A,K304A,1.539,False,1.539
-304,K,E,K304E,-0.1953,False,0.0
+304,K,E,K304E,,True,
 304,K,L,K304L,-0.9404,False,0.0
 304,K,M,K304M,0.08495,False,0.08495
 304,K,Q,K304Q,-0.02089,False,0.0
@@ -3746,7 +3746,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 314,R,S,R314S,-1.962,False,0.0
 314,R,T,R314T,,True,
 315,L,I,L315I,0.9916,False,0.9916
-315,L,M,L315M,,True,
+315,L,M,L315M,0.408,False,0.408
 315,L,R,L315R,,True,
 315,L,T,L315T,,True,
 315,L,V,L315V,-0.2051,False,0.0
@@ -3817,7 +3817,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 326,L,T,L326T,-0.001348,False,0.0
 326,L,V,L326V,0.7401,False,0.7401
 326,L,W,L326W,0.03375,False,0.03375
-327,K,C,K327C,0.9175,False,0.9175
+327,K,C,K327C,,True,
 327,K,E,K327E,0.6942,False,0.6942
 327,K,F,K327F,0.005484,False,0.005484
 327,K,L,K327L,0.2461,False,0.2461
@@ -3841,7 +3841,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 328,A,W,A328W,0.2953,False,0.2953
 329,E,D,E329D,-1.346,False,0.0
 329,E,K,E329K,0.1124,False,0.1124
-329,E,S,E329S,0.8904,False,0.8904
+329,E,S,E329S,,True,
 329,E,T,E329T,0.7285,False,0.7285
 329,E,V,E329V,0.7574,False,0.7574
 329,E,Y,E329Y,-0.04329,False,0.0
@@ -3926,7 +3926,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 335,Q,V,Q335V,-0.9814,False,0.0
 335,Q,W,Q335W,1.418,False,1.418
 336,L,G,L336G,,True,
-336,L,K,L336K,,True,
+336,L,K,L336K,1.044,False,1.044
 336,L,M,L336M,0.6074,False,0.6074
 336,L,N,L336N,0.172,False,0.172
 336,L,P,L336P,,True,
@@ -4015,7 +4015,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 343,A,T,A343T,0.3954,False,0.3954
 343,A,V,A343V,0.3452,False,0.3452
 343,A,Y,A343Y,-0.1064,False,0.0
-344,L,A,L344A,0.004715,False,0.004715
+344,L,A,L344A,,True,
 344,L,I,L344I,-0.1822,False,0.0
 344,L,M,L344M,1.144,False,1.144
 344,L,P,L344P,,True,
@@ -4024,7 +4024,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 344,L,S,L344S,,True,
 344,L,V,L344V,-1.552,False,0.0
 344,L,Y,L344Y,,True,
-345,I,F,I345F,0.7287,False,0.7287
+345,I,F,I345F,,True,
 345,I,L,I345L,-0.08762,False,0.0
 345,I,S,I345S,,True,
 345,I,T,I345T,-0.6626,False,0.0
@@ -4082,7 +4082,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 352,K,C,K352C,,True,
 352,K,F,K352F,0.784,False,0.784
 352,K,G,K352G,0.04783,False,0.04783
-352,K,H,K352H,-1.456,False,0.0
+352,K,H,K352H,,True,
 352,K,I,K352I,0.3715,False,0.3715
 352,K,L,K352L,-0.06058,False,0.0
 352,K,N,K352N,-0.3025,False,0.0
@@ -4137,7 +4137,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 359,M,L,M359L,0.2476,False,0.2476
 360,G,D,G360D,-0.06123,False,0.0
 360,G,I,G360I,,True,
-360,G,L,G360L,1.426,False,1.426
+360,G,L,G360L,,True,
 360,G,N,G360N,-1.12,False,0.0
 360,G,Q,G360Q,0.06986,False,0.06986
 360,G,R,G360R,-0.51,False,0.0
@@ -4155,7 +4155,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 362,P,R,P362R,,True,
 362,P,S,P362S,-1.263,False,0.0
 363,Y,C,Y363C,,True,
-363,Y,D,Y363D,-0.007402,False,0.0
+363,Y,D,Y363D,,True,
 363,Y,F,Y363F,0.462,False,0.462
 363,Y,H,Y363H,-0.3027,False,0.0
 363,Y,L,Y363L,,True,
@@ -4194,7 +4194,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 367,S,F,S367F,5.053,False,5.053
 367,S,I,S367I,1.669,False,1.669
 367,S,L,S367L,,True,
-367,S,N,S367N,3.41,False,3.41
+367,S,N,S367N,,True,
 367,S,R,S367R,5.928,False,5.928
 367,S,T,S367T,0.5495,False,0.5495
 367,S,V,S367V,5.821,False,5.821
@@ -4222,7 +4222,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 371,Y,N,Y371N,,True,
 371,Y,S,Y371S,,True,
 371,Y,V,Y371V,,True,
-372,L,I,L372I,,True,
+372,L,I,L372I,-0.356,False,0.0
 372,L,P,L372P,,True,
 372,L,R,L372R,,True,
 372,L,T,L372T,-0.8712,False,0.0
@@ -4258,7 +4258,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 374,H,Y,H374Y,0.1476,False,0.1476
 375,T,A,T375A,-0.3578,False,0.0
 375,T,C,T375C,,True,
-375,T,D,T375D,-1.544,False,0.0
+375,T,D,T375D,,True,
 375,T,F,T375F,,True,
 375,T,I,T375I,-0.1062,False,0.0
 375,T,K,T375K,-0.1381,False,0.0
@@ -4281,7 +4281,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 376,T,L,T376L,-1.569,False,0.0
 376,T,M,T376M,0.003025,False,0.003025
 376,T,N,T376N,0.2645,False,0.2645
-376,T,P,T376P,0.01843,False,0.01843
+376,T,P,T376P,,True,
 376,T,R,T376R,0.1389,False,0.1389
 376,T,S,T376S,-1.695,False,0.0
 376,T,V,T376V,-0.665,False,0.0
@@ -4430,7 +4430,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 391,G,S,G391S,0.05032,False,0.05032
 391,G,W,G391W,-0.01271,False,0.0
 392,S,A,S392A,-0.04323,False,0.0
-392,S,C,S392C,1.364,False,1.364
+392,S,C,S392C,,True,
 392,S,F,S392F,-0.6602,False,0.0
 392,S,G,S392G,-0.1677,False,0.0
 392,S,H,S392H,0.08176,False,0.08176
@@ -4442,10 +4442,10 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 392,S,T,S392T,-0.1313,False,0.0
 392,S,V,S392V,0.0361,False,0.0361
 392,S,Y,S392Y,-0.4584,False,0.0
-393,Y,D,Y393D,-1.013,False,0.0
+393,Y,D,Y393D,,True,
 393,Y,E,Y393E,,True,
 393,Y,F,Y393F,-0.4496,False,0.0
-393,Y,H,Y393H,-0.8962,False,0.0
+393,Y,H,Y393H,,True,
 393,Y,L,Y393L,,True,
 393,Y,M,Y393M,,True,
 393,Y,S,Y393S,,True,
@@ -4571,7 +4571,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 402,D,E,D402E,1.53,False,1.53
 402,D,F,D402F,-0.2906,False,0.0
 402,D,K,D402K,0.6703,False,0.6703
-402,D,L,D402L,-0.1389,False,0.0
+402,D,L,D402L,,True,
 402,D,N,D402N,-1.691,False,0.0
 402,D,S,D402S,-0.8091,False,0.0
 402,D,T,D402T,-0.08901,False,0.0
@@ -4596,7 +4596,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 404,E,L,E404L,0.1431,False,0.1431
 404,E,M,E404M,0.2676,False,0.2676
 404,E,P,E404P,,True,
-404,E,Q,E404Q,0.3037,False,0.3037
+404,E,Q,E404Q,,True,
 404,E,R,E404R,-0.36,False,0.0
 404,E,S,E404S,-0.175,False,0.0
 404,E,T,E404T,0.3418,False,0.3418
@@ -4611,7 +4611,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 405,Q,R,Q405R,-1.688,False,0.0
 405,Q,S,Q405S,,True,
 405,Q,T,Q405T,0.2943,False,0.2943
-405,Q,V,Q405V,0.5194,False,0.5194
+405,Q,V,Q405V,,True,
 406,Q,A,Q406A,0.3165,False,0.3165
 406,Q,E,Q406E,-0.08994,False,0.0
 406,Q,H,Q406H,0.3035,False,0.3035
@@ -4774,7 +4774,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 425,K,Q,K425Q,0.03584,False,0.03584
 425,K,R,K425R,-0.06947,False,0.0
 425,K,S,K425S,-0.07268,False,0.0
-425,K,T,K425T,-0.6634,False,0.0
+425,K,T,K425T,,True,
 425,K,V,K425V,-0.6444,False,0.0
 426,T,C,T426C,-1.0,False,0.0
 426,T,F,T426F,,True,
@@ -4860,7 +4860,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 438,T,G,T438G,-0.06542,False,0.0
 438,T,I,T438I,0.02524,False,0.02524
 438,T,L,T438L,-0.009489,False,0.0
-438,T,N,T438N,,True,
+438,T,N,T438N,-0.2762,False,0.0
 438,T,S,T438S,-0.198,False,0.0
 438,T,Y,T438Y,0.1614,False,0.1614
 439,S,A,S439A,-0.6994,False,0.0
@@ -4918,7 +4918,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 443,I,S,I443S,0.0937,False,0.0937
 443,I,T,I443T,-0.01372,False,0.0
 443,I,V,I443V,0.7536,False,0.7536
-444,S,C,S444C,1.121,False,1.121
+444,S,C,S444C,,True,
 444,S,D,S444D,,True,
 444,S,G,S444G,0.04205,False,0.04205
 444,S,I,S444I,,True,
@@ -4940,7 +4940,7 @@ site,wildtype,mutant,mutation,escape,poor_cell_entry,floored_escape
 445,I,Y,I445Y,,True,
 446,F,A,F446A,0.9524,False,0.9524
 446,F,D,F446D,-1.607,False,0.0
-446,F,G,F446G,1.43,False,1.43
+446,F,G,F446G,,True,
 446,F,K,F446K,,True,
 446,F,L,F446L,,True,
 446,F,N,F446N,,True,
