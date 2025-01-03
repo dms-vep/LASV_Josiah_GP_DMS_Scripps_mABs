@@ -95,7 +95,12 @@ non-pipeline_analyses/neutralization_curves/*
 non-pipeline_analyses/neutralization_curves/data/*
 !non-pipeline_analyses/neutralization_curves/data/*.xlsx
 
+!results/dms-viz
+results/dms-viz/*
+!results/dms-viz/*.json
+
 node_modules/
 !homepage/.vitepress/
 homepage/.vitepress/cache/
 homepage/.vitepress/dist/
+!homepage/public/
