@@ -5,7 +5,7 @@
 # antibody escape alongside other assays (eg, functional effects of mutations).
 # --------------------------------------------------------------------------------------
         
-all_antibodies:
+all_antibodies_and_cell_entry:
   min_times_seen: 2  # only include mutations with times_seen >= this
   min_frac_models: 1  # only include mutations in >= this fraction of models
   alphabet: ['R','K','H','D','E','Q','N','S','T','Y','W','F','A','I','L','M','V','G','P','C','*']  # amino acids to include

@@ -1,0 +1,46 @@
+# Configuration for `dms-viz`, keyed by names given to output JSONs
+
+prefusion_cell_entry:
+  pdb_id: 7puy
+  escape_or_phenotype: phenotype  # are we showing escape or some other phenotype?
+  phenotypes: [entry in 293T cells]  # list of phenotypes if showing those
+  antibodies: null  # list of antibodies if showing escape, if null then show all
+  # the following arguments are optional, and have the same
+  # meaning as to `configure-dms-viz`
+  # (https://dms-viz.github.io/dms-viz-docs/preparing-data/command-line-api/)
+  included-chains: [a, b, c, A, B, C]
+  excluded-chains: [D, E, F, H, I, J, L, M, N, G, K, O]
+  alphabet: RKHDEQNSTYWFAILMVGPC*
+  floor: false
+  summary-stat: mean
+  tooltip-cols: {}
+  filter-cols: {}
+  filter-limits: {}
+  heatmap-limits: [-5, 0, 2]
+  title: Effects of mutations to Lassa GPC on cell entry on prefusion structure
+  description: |
+    Pseudovirus deep mutational scanning of how mutations to Lassa GPC affect
+    into 293T cells shown on prefusion structure (7puy).
+
+
+prefusion_ab_escape:
+  pdb_id: 7puy
+  escape_or_phenotype: escape  # are we showing escape or some other phenotype?
+  phenotypes: null  # list of phenotypes if showing those
+  antibodies: null  # list of antibodies if showing escape, if null then show all
+  # the following arguments are optional, and have the same
+  # meaning as to `configure-dms-viz`
+  # (https://dms-viz.github.io/dms-viz-docs/preparing-data/command-line-api/)
+  included-chains: [a, b, c, A, B, C]
+  excluded-chains: [D, E, F, H, I, J, L, M, N, G, K, O]
+  alphabet: RKHDEQNSTYWFAILMVGPC*
+  floor: true
+  summary-stat: sum
+  tooltip-cols: {entry in 293T cells: entry in 293T cells}
+  filter-cols: {entry in 293T cells: entry in 293T cells}
+  filter-limits: {entry in 293T cells: [-8, -3, 0]}
+  heatmap-limits: [0]
+  title: Effects of mutations to Lassa GPC on escape from monoclonal antibodies
+  description: |
+    Pseudovirus deep mutational scanning of how mutations to Lassa GPC affect
+    neutralization by monoclonal antibodies shown on prefusion structure (7puy).
