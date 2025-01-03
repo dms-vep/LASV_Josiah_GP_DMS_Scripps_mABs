@@ -7,6 +7,7 @@
 <li><a href="#functional-effects-of-mutations">Functional effects of mutations</a></li>
 <li><a href="#antibodyserum-escape">Antibody/serum escape</a></li>
 <li><a href="#integrated-summary-plots">Integrated summary plots</a></li>
+<li><a href="#visualizations-of-dms-data-on-protein-structure">Visualizations of DMS data on protein structure</a></li>
 <li><a href="#additional-files">Additional files</a></li>
 </ul>
 </div>
@@ -390,12 +391,12 @@
 </li>
 </ul>
 <h2 id="integrated-summary-plots">Integrated summary plots</h2>
-<h4 id="all-antibodies">all antibodies</h4>
+<h4 id="all-antibodies-and-cell-entry">all antibodies and cell entry</h4>
 <ul>
-<li><a href="htmls/all_antibodies_overlaid.html">Summary plot (escape overlaid)</a></li>
-<li><a href="htmls/all_antibodies_faceted.html">Summary plot (escape faceted)</a></li>
-<li><a href="https://github.com/dms-vep/LASV_Josiah_GP_DMS_Scripps_mABs/blob/main/results/summaries/all_antibodies.csv">CSV summarizing results</a></li>
-<li><a href="https://github.com/dms-vep/LASV_Josiah_GP_DMS_Scripps_mABs/blob/main/results/summaries/all_antibodies_per_antibody_escape.csv">CSV summarizing per-antibody results</a></li>
+<li><a href="htmls/all_antibodies_and_cell_entry_overlaid.html">Summary plot (escape overlaid)</a></li>
+<li><a href="htmls/all_antibodies_and_cell_entry_faceted.html">Summary plot (escape faceted)</a></li>
+<li><a href="https://github.com/dms-vep/LASV_Josiah_GP_DMS_Scripps_mABs/blob/main/results/summaries/all_antibodies_and_cell_entry.csv">CSV summarizing results</a></li>
+<li><a href="https://github.com/dms-vep/LASV_Josiah_GP_DMS_Scripps_mABs/blob/main/results/summaries/all_antibodies_and_cell_entry_per_antibody_escape.csv">CSV summarizing per-antibody results</a></li>
 </ul>
 <h4 id="gpc-a-type-antibodies">GPC-A type antibodies</h4>
 <ul>
@@ -418,11 +419,25 @@
 <li><a href="https://github.com/dms-vep/LASV_Josiah_GP_DMS_Scripps_mABs/blob/main/results/summaries/GPC-C_hybrid_antibodies.csv">CSV summarizing results</a></li>
 <li><a href="https://github.com/dms-vep/LASV_Josiah_GP_DMS_Scripps_mABs/blob/main/results/summaries/GPC-C_hybrid_antibodies_per_antibody_escape.csv">CSV summarizing per-antibody results</a></li>
 </ul>
-<h2 id="additional-files">Additional files</h2>
-<h4 id="configuration-for-dms-viz">Configuration for dms-viz</h4>
+<h2 id="visualizations-of-dms-data-on-protein-structure">Visualizations of DMS data on protein structure</h2>
+<h4 id="dms-viz-jsons">dms-viz JSONs</h4>
 <ul>
-<li><a href="notebooks/configure_dms_viz.html">Notebook configuring dms-viz</a></li>
+<li><details><summary>JSON files for dms-viz (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/LASV_Josiah_GP_DMS_Scripps_mABs/blob/main/results/dms-viz/prefusion_cell_entry.json">prefusion_cell_entry</a></li>
+<li><a href="https://github.com/dms-vep/LASV_Josiah_GP_DMS_Scripps_mABs/blob/main/results/dms-viz/prefusion_ab_escape.json">prefusion_ab_escape</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Notebooks generating JSONs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/configure_dms_viz_prefusion_cell_entry.html">prefusion_cell_entry</a></li>
+<li><a href="notebooks/configure_dms_viz_prefusion_ab_escape.html">prefusion_ab_escape</a></li>
+</ul></details>
+
+</li>
 </ul>
+<h2 id="additional-files">Additional files</h2>
 <h4 id="create-pre-filtered-files-and-escape-plots">Create pre-filtered files and escape plots</h4>
 <ul>
 <li><a href="notebooks/get_filtered_CSVs.html">Notebook configuring data filtering and plotting</a></li>
