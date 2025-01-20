@@ -7,7 +7,16 @@ This repo contains data for deep mutational scanning of Lassa virus Josiah strai
 For documentation of the analysis, see [https://dms-vep.github.io/LASV_Josiah_GP_DMS_Scripps_mABs/](https://dms-vep.github.io/LASV_Josiah_GP_DMS_Scripps_mABs/)
 
 Antibodies mapped in this repo include:
-- TODO
+- S437.8
+- S437.11 
+- S437.20
+- S437.27
+- S437.42
+- S444.28
+- S444.33
+- S444.46
+- S444.78
+- S437.52 ***Non-neutralizing antibody that is mapped by only library B***
 
 ## Organization of this repo
 
