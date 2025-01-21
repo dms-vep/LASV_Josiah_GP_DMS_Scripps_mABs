@@ -1,4 +1,4 @@
-# Deep mutational scanning of Lassa virus Josiah strain glycoprotein using a barcoded lentiviral platform
+# Deep mutational scanning of Lassa virus Josiah strain glycoprotein and mapping monoclonal antibodies from Scripps Research Institute using a barcoded lentiviral platform
 
 Study by Caleb Carr and Jesse Bloom.
 
