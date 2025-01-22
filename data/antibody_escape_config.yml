@@ -515,47 +515,6 @@ antibody_selections:
         concentration: 128
         use_in_fit: true
 
-  LibB-240802-Rabbit194-1:
-    neut_standard_name: neut_standard
-    prob_escape_filters: *prob_escape_filters_default
-    polyclonal_params: *polyclonal_params_default
-    escape_plot_kwargs: *escape_plot_kwargs_default
-    plot_hide_stats: *plot_hide_stats_default
-    no_antibody_sample: LibB-240802-no-antibody-1
-    antibody_samples:
-      LibB-240802-Rabbit194-0.33-1:
-        concentration: 0.33
-        use_in_fit: true
-      LibB-240802-Rabbit194-0.2-1:
-        concentration: 0.2
-        use_in_fit: true
-      LibB-240802-Rabbit194-0.1-1:
-        concentration: 0.1
-        use_in_fit: true
-      LibB-240802-Rabbit194-0.05-1:
-        concentration: 0.05
-        use_in_fit: true
-  LibB-240802-Rabbit194-2:
-    neut_standard_name: neut_standard
-    prob_escape_filters: *prob_escape_filters_default
-    polyclonal_params: *polyclonal_params_default
-    escape_plot_kwargs: *escape_plot_kwargs_default
-    plot_hide_stats: *plot_hide_stats_default
-    no_antibody_sample: LibB-240802-no-antibody-1
-    antibody_samples:
-      LibB-240802-Rabbit194-0.33-1:
-        concentration: 0.33
-        use_in_fit: true
-      LibB-240802-Rabbit194-0.2-1:
-        concentration: 0.2
-        use_in_fit: true
-      LibB-240802-Rabbit194-0.1-1:
-        concentration: 0.1
-        use_in_fit: true
-      LibB-240802-Rabbit194-0.05-1:
-        concentration: 0.05
-        use_in_fit: true
-
 # --------------------------------------------------------------------------------------
 # Configuration for averaging and plotting selections for the same antibody
 # --------------------------------------------------------------------------------------
@@ -646,9 +605,4 @@ avg_antibody_escape:
     selections:
       - LibB-240604-S43752-1
       - LibB-240604-S43752-2
-  Rabbit194:
-    <<: *avg_antibody_escape_default
-    selections:
-      - LibB-240802-Rabbit194-1
-      - LibB-240802-Rabbit194-2
   
