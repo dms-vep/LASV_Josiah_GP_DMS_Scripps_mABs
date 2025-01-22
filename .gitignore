@@ -89,11 +89,16 @@ non-pipeline_analyses/pdb_viewing/*
 
 !non-pipeline_analyses/neutralization_curves/
 non-pipeline_analyses/neutralization_curves/*
-!non-pipeline_analyses/neutralization_curves/*.svg
 !non-pipeline_analyses/neutralization_curves/*.ipynb
 !non-pipeline_analyses/neutralization_curves/data
 non-pipeline_analyses/neutralization_curves/data/*
 !non-pipeline_analyses/neutralization_curves/data/*.xlsx
+!non-pipeline_analyses/neutralization_curves/results/
+non-pipeline_analyses/neutralization_curves/results/*
+!non-pipeline_analyses/neutralization_curves/results/*.svg
+!non-pipeline_analyses/neutralization_curves/results/antibody_enhancement_curves/
+non-pipeline_analyses/neutralization_curves/results/antibody_enhancement_curves/*
+!non-pipeline_analyses/neutralization_curves/results/antibody_enhancement_curves/*.svg
 
 !results/dms-viz
 results/dms-viz/*
