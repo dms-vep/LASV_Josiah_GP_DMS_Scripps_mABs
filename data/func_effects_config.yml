@@ -58,6 +58,11 @@ func_scores:
     pre_selection_sample: LibA-240720-VSVG-1
     func_score_params: *func_scores_params_default
     global_epistasis_params: *global_epistasis_params
+  LibA-250409-293T-1:
+    post_selection_sample: LibA-250409-no-antibody-1
+    pre_selection_sample: LibA-250409-VSVG-1
+    func_score_params: *func_scores_params_default
+    global_epistasis_params: *global_epistasis_params
 
   LibB-240523-293T-1:
     post_selection_sample: LibB-240523-no-antibody-1
@@ -129,6 +134,7 @@ avg_func_effects:
       - LibA-240507-293T-1
       - LibA-240523-293T-1
       - LibA-240720-293T-1
+      - LibA-250409-293T-1
       - LibB-240523-293T-1
       - LibB-240604-293T-1
       - LibB-240619-293T-1

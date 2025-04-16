@@ -16,7 +16,7 @@ Antibodies mapped in this repo include:
 - S444.33
 - S444.46
 - S444.78
-- S437.52 ***Non-neutralizing antibody that is mapped by only library B***
+- S437.52 ***Non-neutralizing antibody***
 
 ## Organization of this repo
 
